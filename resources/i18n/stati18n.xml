@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<stati18n>
+	<file>
+		<name>stati18n.css</name>
+		<minified>true</minified>
+	</file>
+
+	<language>
+
+	  <text id='home-menu'>
+		<translation lang='french'>Accueil</translation>
+		<translation lang='english'>Home</translation>
+	  </text>
+
+	  <text id='profile-menu'>
+		<translation lang='french'>Profil</translation>
+		<translation lang='english'>Profile</translation>
+	  </text>
+
+	  <text id='skills-menu'>
+		<translation lang='french'>Compétences</translation>
+		<translation lang='english'>Skills</translation>
+	  </text>
+
+	  <text id='education-menu'>
+		<translation lang='french'>Formation</translation>
+		<translation lang='english'>Education</translation>
+	  </text>
+
+	  <text id='experience-menu'>
+		<translation lang='french'>Experience</translation>
+		<translation lang='english'>Experience</translation>
+	  </text>
+
+	  <text id='project-menu'>
+		<translation lang='french'>Projets</translation>
+		<translation lang='english'>Projects</translation>
+	  </text>
+
+	  <text id='contact-menu'>
+		<translation lang='french'>Contact</translation>
+		<translation lang='english'>Contact</translation>
+	  </text>
+
+	  <text id='profession-header'>
+		<translation lang='french'>Analyste programmeur | Ingénieur</translation>
+		<translation lang='english'>Analyst programmer | Engineer</translation>
+	  </text>
+
+	  <text id='hire-me-header'>
+		<translation lang='french'>Recruter moi !</translation>
+		<translation lang='english'>Hire me !</translation>
+	  </text>
+
+	  <text id='personnal-profile'>
+		<translation lang='french'>Profil</translation>
+		<translation lang='english'>Personnal profile</translation>
+	  </text>
+
+	  <text id='personnal-description'>
+		<translation lang='french'>Je suis moi !</translation>
+		<translation lang='english'>I'm me !</translation>
+	  </text>
+
+	  <text id='skills-title'>
+		<translation lang='french'>Compétences</translation>
+		<translation lang='english'>Skills</translation>
+	  </text>
+
+	  <text id='education-title'>
+		<translation lang='french'>Education</translation>
+		<translation lang='english'>Education</translation>
+	  </text>
+
+	  <text id='graduated'>
+		<translation lang='french'>diplômé</translation>
+		<translation lang='english'>graduated</translation>
+	  </text>
+
+	  <text id='engineering-school'>
+		<translation lang='french'>Ecole d'ingénieur en informatique</translation>
+		<translation lang='english'>Engineering school in IT Science</translation>
+	  </text>
+
+	  <text id='engineering-school-desc'>
+		<translation lang='french'>L’ISIMA est une grande école d’Ingénieurs en Informatique en Auvergne, axée sur les métiers de l’Informatique et de ses applications. Cette école est située à Clermont-Ferrand et dispose de nombreux partenariats avec des entreprises présentes localement telles que Michelin ou CGI Inc. Elle offre une formation en informatique avec à la fois une formation généraliste et une spécialisation dès la 2e année, combinée avec 2 stages de 5 mois.</translation>
+		<translation lang='english'>ISIMA is a great school of Engineering in IT Science in Auvergne (France). This school is located in Clermont-Ferrand and has many partnerships with companies such as Michelin locally present or CGI Inc. ISIMA offers a computer training, with both general training and specialization from the 2nd year, combined with two courses of 5 months.</translation>
+	  </text>
+
+	  <text id='IT-degree'>
+		<translation lang='french'>Diplôme universitaire en infortique</translation>
+		<translation lang='english'>Technical University Degree in IT Science</translation>
+	  </text>
+
+	  <text id='IT-degree-description'>
+		<translation lang='french'>Le département informatique de Clermont-Ferrand a une très longue expérience dans la formation aux métiers de l'informatique. Les enseignements (notamment assurés par des professionnels) portent sur l'informatique d'aujourd'hui qui garantit une bonne insertion professionnelle, mais aussi sur celle de demain qui offre de belles perspectives de poursuites d’études.</translation>
+		<translation lang='english'>The IT department of Clermont-Ferrand has a very long experience in training for careers in computer science. The teachings (some provided by professionals) focus on computing today which ensures good professional integration but also on the future which offers good prospects for further studies.</translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+
+	  <text id=''>
+		<translation lang='french'></translation>
+		<translation lang='english'></translation>
+	  </text>
+        
+	</language>
+</stati18n>

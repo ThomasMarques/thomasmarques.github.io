@@ -8,48 +8,55 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Thomas Marques">
 
+        <link href="resources/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="resources/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
         <link href="resources/css/style.css" rel="stylesheet" type="text/css">
+        <link href="resources/i18n/stati18n.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav" id="main-menu">
-                <li><a href="#page-welcome">Home</a></li>
-                <li><a href="#page-profile">Profile</a></li>
-                <li><a href="#page-skills">Skills</a></li>
-                <li><a href="#page-education">Education</a></li>
-                <li><a href="#page-experience">Experience</a></li>
-                <li><a href="#page-projects">Projects</a></li>
-                <li><a href="#page-contact">Contact</a></li>
+                <li><a href="#page-welcome"><span class="stati18n s18n-home-menu"></span></a></li>
+                <li><a href="#page-profile"><span class="stati18n s18n-profile-menu"></span></a></li>
+                <li><a href="#page-skills"><span class="stati18n s18n-skills-menu"></span></a></li>
+                <li><a href="#page-education"><span class="stati18n s18n-education-menu"></span></a></li>
+                <li><a href="#page-experience"><span class="stati18n s18n-experience-menu"></span></a></li>
+                <li><a href="#page-projects"><span class="stati18n s18n-project-menu"></span></a></li>
+                <li><a href="#page-contact"><span class="stati18n s18n-contact-menu"></span></a></li>
             </ul>
+        </div>
+        <div class="">
+            <a class="stati18n-language-selector" value="english" href="#not-exist"><img src="resources/images/english-flag.png" alt="English" /></a>
+            <a class="stati18n-language-selector" value="french" href="#not-exist"><img src="resources/images/french-flag.png" alt="Français" /></a>
         </div>
 
         <section id="page-welcome" class="page-welcome">
             <div class="container">
                 <header class="centered">
                     <h1>Thomas Marques</h1>
-                    <p>Analyst programmer | Engineer</p>
+                    <p class="stati18n s18n-profession-header"></p>
                 </header>
                 <div class="social-icons">
                     <a href="https://twitter.com/thm4rques" class="btn btn-round btn-clear btn-twitter">Twitter</a>
                     <a href="https://www.facebook.com/thoumasch" class="btn btn-round btn-clear btn-facebook">Facebook</a>
                     <a href="https://www.linkedin.com/pub/thomas-marques/85/520/961" class="btn btn-round btn-clear btn-linkedin">Linkedin</a>
-                    <a href="mailto:marquesthom@gmail.com" class="btn btn-round btn-clear btn-linkedin">Gmail</a>
+                    <a href="mailto:marquesthom@gmail.com" class="btn btn-round btn-clear btn-mail">Mail</a>
                 </div>
-                <a href="#page-contact" class="btn btn-default hire-me">Hire Me</a>
+                <a href="#page-contact" class="btn btn-default hire-me"><span class="stati18n s18n-hire-me-header"></span></a>
             </div>
         </section>
 
         <section id="page-profile" class="page-profile">
             <div class="container">
                 <header class="section-header">
-                    <h2 class="section-title">Personal Profile</h2>
+                    <h2 class="section-title" class="stati18n s18n-personnal-profile"></h2>
                 </header>
                 <div class="row">
                     <div class="col-md-3">
                         <div class="profile"><img src="resources/images/profile.png" alt="profile"></div> 
                     </div>
                     <div class="col-md-9">
-                        <p>Je suis une personne sérieuse, dynamique et motivée. M'intégrer à une équipe ne me pose aucun problème grâce à ma formation...</p>
+                        <p class="stati18n s18n-personnal-description"></p>
                     </div>
                 </div>
             </div> 
@@ -59,7 +66,7 @@
             <div class="container">
 
                 <header class="section-header">
-                    <h2 class="section-title"><span>Skills</span></h2>
+                    <h2 class="section-title"><span class="stati18n s18n-skills-title"></span></h2>
                     <div class="spacer"></div>
                 </header>
                 <div class="row">
@@ -106,7 +113,7 @@
         <section id="page-education" class="page-education">
             <div class="container">
                 <header class="section-header">
-                    <h2 class="section-title"><span>Education</span></h2>
+                    <h2 class="section-title"><span class="stati18n s18n-education-title"></span></h2>
                     <div class="spacer"></div>
                 </header>
                 <div class="row">
@@ -114,18 +121,18 @@
                         <article class="education">
                             <header>
                                 <h3>ISIMA – Institut Supérieur d’Informatique, de Modélisation et de leurs Applications</h3>
-                                <p>Engineering school in IT Science - <strong>Graduated:</strong> 2014</p>
+                                <p><span class="stati18n s18n-engineering-school"></span> - <strong><span class="stati18n s18n-graduated"></span>:</strong> 2014</p>
                             </header>
-                            <p>ISIMA is a great school of Engineering in IT Science in Auvergne (France). This school is located in Clermont-Ferrand and has many partnerships with companies such as Michelin locally present or CGI Inc. ISIMA offers a computer training, with both general training and specialization from the 2nd year, combined with two courses of 5 months.</p>
+                            <p class="stati18n s18n-engineering-school-desc"></p>
                         </article>
                     </div>
                     <div class="col-md-6">
                         <article class="education">
                             <header>
                                 <h3>DUT – Diplôme Universitaire de Technologie</h3>
-                                <p>Technical University Degree in IT Science - <strong>Graduated:</strong> 2011</p>
+                                <p><span class="stati18n s18n-IT-degree"></span> - <strong><span class="stati18n s18n-graduated"></strong> 2011</p>
                             </header>
-                            <p>The IT department of Clermont-Ferrand has a very long experience in training for careers in computer science. The teachings (some provided by professionals) focus on computing today which ensures good professional integration but also on the future which offers good prospects for further studies.</p>
+                            <p class="stati18n s18n-IT-degree-description"></p>
                         </article>
                     </div>
 
@@ -133,6 +140,8 @@
             </div>
         </section>
 
-
+        <script src="resources/js/jquery-1.11.0.min.js"></script>
+        <script src="resources/js/bootstrap.min.js"></script>
+        <script src="resources/i18n/stati18n.js"></script>
     </body>
 </html>
