@@ -10,8 +10,9 @@
 
         <link href="resources/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="resources/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+        <link href="resources/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="resources/i18n/stati18n.min.css" rel="stylesheet" type="text/css">
         <link href="resources/css/style.css" rel="stylesheet" type="text/css">
-        <link href="resources/i18n/stati18n.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div class="navbar-collapse collapse">
@@ -24,10 +25,11 @@
                 <li><a href="#page-projects"><span class="stati18n s18n-project-menu"></span></a></li>
                 <li><a href="#page-contact"><span class="stati18n s18n-contact-menu"></span></a></li>
             </ul>
-        </div>
-        <div class="">
-            <a class="stati18n-language-selector" value="english" href="#not-exist"><img src="resources/images/english-flag.png" alt="English" /></a>
-            <a class="stati18n-language-selector" value="french" href="#not-exist"><img src="resources/images/french-flag.png" alt="Français" /></a>
+
+            <div class="">
+                <a class="stati18n-language-selector" value="english" href="#not-exist"><img src="resources/images/english-flag.png" alt="English" /></a>
+                <a class="stati18n-language-selector" value="french" href="#not-exist"><img src="resources/images/french-flag.png" alt="Français" /></a>
+            </div>
         </div>
 
         <section id="page-welcome" class="page-welcome">
@@ -37,10 +39,11 @@
                     <p class="stati18n s18n-profession-header"></p>
                 </header>
                 <div class="social-icons">
-                    <a href="https://twitter.com/thm4rques" class="btn btn-round btn-clear btn-twitter">Twitter</a>
-                    <a href="https://www.facebook.com/thoumasch" class="btn btn-round btn-clear btn-facebook">Facebook</a>
-                    <a href="https://www.linkedin.com/pub/thomas-marques/85/520/961" class="btn btn-round btn-clear btn-linkedin">Linkedin</a>
-                    <a href="mailto:marquesthom@gmail.com" class="btn btn-round btn-clear btn-mail">Mail</a>
+                    <a href="https://twitter.com/thm4rques" class="btn btn-round btn-clear btn-twitter"><i class="fa fa-linkedin-square"></i></a>
+                    <a href="https://www.facebook.com/thoumasch" class="btn btn-round btn-clear btn-facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/pub/thomas-marques/85/520/961" class="btn btn-round btn-clear btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
+                    <a href="https://github.com/ThomasMarques" class="btn btn-round btn-clear btn-mail"><i class="fa fa-github-square"></i></a>
+                    <a href="mailto:marquesthom@gmail.com" class="btn btn-round btn-clear btn-mail"><i class="fa fa-envelope"></i></a>
                 </div>
                 <a href="#page-contact" class="btn btn-default hire-me"><span class="stati18n s18n-hire-me-header"></span></a>
             </div>
@@ -97,7 +100,8 @@
                     <div class="col-md-2">
                         <span class="chart" data-percent="60">
                             <span class="percent"></span>
-                            <h3>HTML5 CC3</h3>
+                            <h3>HTML5</h3>
+                            <h3>CC3</h3>
                         </span>
                     </div>
                     <div class="col-md-2">
@@ -131,7 +135,7 @@
                             <header>
                                 <h3>DUT – Diplôme Universitaire de Technologie</h3>
                                 <p><span class="stati18n s18n-IT-degree"></span> - <strong><span class="stati18n s18n-graduated"></strong> 2011</p>
-                            </header>
+                                </header>
                             <p class="stati18n s18n-IT-degree-description"></p>
                         </article>
                     </div>
@@ -142,6 +146,6 @@
 
         <script src="resources/js/jquery-1.11.0.min.js"></script>
         <script src="resources/js/bootstrap.min.js"></script>
-        <script src="resources/i18n/stati18n.js"></script>
+        <script src="resources/i18n/stati18n.min.js"></script>
     </body>
 </html>
