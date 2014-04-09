@@ -138,12 +138,12 @@
 	  </text>
 
 	  <text id='sandwich-course-desc'>
-		<translation lang='fr'>// TODO</translation>
-		<translation lang='en'>// TODO</translation>
+		<translation lang='fr'>/* TODO */</translation>
+		<translation lang='en'>/* TODO */</translation>
  
 	  <text id='internship-zz-desc'>
-		<translation lang='fr'>// TODO</translation>
-		<translation lang='en'>// TODO</translation>
+		<translation lang='fr'>/* TODO */</translation>
+		<translation lang='en'>/* TODO */</translation>
 	  </text>
 
 	  <text id='internship-dut-desc'>
