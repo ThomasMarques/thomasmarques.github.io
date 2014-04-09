@@ -97,49 +97,64 @@
 		<translation lang='english'>The IT department of Clermont-Ferrand has a very long experience in training for careers in computer science. The teachings (some provided by professionals) focus on computing today which ensures good professional integration but also on the future which offers good prospects for further studies.</translation>
 	  </text>
 
-	  <text id=''>
+	  <text id='experience-title'>
+		<translation lang='french'>Expérience</translation>
+		<translation lang='english'>Experience</translation>
+	  </text>
+
+	  <text id='april'>
+		<translation lang='french'>avr.</translation>
+		<translation lang='english'>apr.</translation>
+	  </text>
+
+	  <text id='january'>
+		<translation lang='french'>jan.</translation>
+		<translation lang='english'>jan</translation>
+	  </text>
+
+	  <text id='september'>
+		<translation lang='french'>sep.</translation>
+		<translation lang='english'>sep.</translation>
+	  </text>
+
+	  <text id='sandwich-course'>
+		<translation lang='french'>Alternance</translation>
+		<translation lang='english'>Sandwich course</translation>
+	  </text>
+
+	  <text id='internship'>
+		<translation lang='french'>Stage</translation>
+		<translation lang='english'>Internship</translation>
+	  </text>
+
+	  <text id='job-designation'>
+		<translation lang='french'>Analyste programmeur</translation>
+		<translation lang='english'>Analyst programmer</translation>
+	  </text>
+
+	  <text id='job-internship'>
+		<translation lang='french'>Développeur Java</translation>
+		<translation lang='english'>Java developer</translation>
+	  </text>
+
+	  <text id='sandwich-course-desc'>
 		<translation lang='french'></translation>
 		<translation lang='english'></translation>
 	  </text>
 
-	  <text id=''>
+	  <text id='internship-zz-desc'>
 		<translation lang='french'></translation>
 		<translation lang='english'></translation>
 	  </text>
 
-	  <text id=''>
-		<translation lang='french'></translation>
-		<translation lang='english'></translation>
+	  <text id='internship-dut-desc'>
+		<translation lang='french'>Stage de 3 mois suivi d'un travail à domicile afin de développer un client Java. L'application permet de récupérer les données d'un capteur cardiaque en utilisant le port infrarouge afin de les traitées et de les affichées. L'application permet également de générer des rapports au format Word de manière automatique grâce à l'API d'OpenOffice.</translation>
+		<translation lang='english'>3 month internship followed by work at home to develop a Java client. The application can retrieve data from a pulse sensor using the infrared port in order processed and displayed. The application also allows you to generate reports in Word format automatically through API OpenOffice.</translation>
 	  </text>
 
-	  <text id=''>
-		<translation lang='french'></translation>
-		<translation lang='english'></translation>
-	  </text>
-
-	  <text id=''>
-		<translation lang='french'></translation>
-		<translation lang='english'></translation>
-	  </text>
-
-	  <text id=''>
-		<translation lang='french'></translation>
-		<translation lang='english'></translation>
-	  </text>
-
-	  <text id=''>
-		<translation lang='french'></translation>
-		<translation lang='english'></translation>
-	  </text>
-
-	  <text id=''>
-		<translation lang='french'></translation>
-		<translation lang='english'></translation>
-	  </text>
-
-	  <text id=''>
-		<translation lang='french'></translation>
-		<translation lang='english'></translation>
+	  <text id='teamwork'>
+		<translation lang='french'>Travail en équipe</translation>
+		<translation lang='english'>Teamwork</translation>
 	  </text>
 
 	  <text id=''>
