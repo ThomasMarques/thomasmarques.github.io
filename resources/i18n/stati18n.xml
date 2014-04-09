@@ -1,205 +1,196 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <stati18n>
-	<file>
-		<name>stati18n.min.css</name>
-		<minified>true</minified>
-	</file>
+    <file>
+        <name>stati18n.min.css</name>
+        <minified>true</minified>
+    </file>
 
-	<language>
+    <language>
 
-	  <text id='home-menu'>
-		<translation lang='fr'>Accueil</translation>
-		<translation lang='en'>Home</translation>
-	  </text>
+        <text id='home-menu'>
+            <translation lang='fr'>Accueil</translation>
+            <translation lang='en'>Home</translation>
+        </text>
 
-	  <text id='profile-menu'>
-		<translation lang='fr'>Profil</translation>
-		<translation lang='en'>Profile</translation>
-	  </text>
+        <text id='profile-menu'>
+            <translation lang='fr'>Profil</translation>
+            <translation lang='en'>Profile</translation>
+        </text>
 
-	  <text id='skills-menu'>
-		<translation lang='fr'>Compétences</translation>
-		<translation lang='en'>Skills</translation>
-	  </text>
+        <text id='skills-menu'>
+            <translation lang='fr'>Compétences</translation>
+            <translation lang='en'>Skills</translation>
+        </text>
 
-	  <text id='education-menu'>
-		<translation lang='fr'>Formation</translation>
-		<translation lang='en'>Education</translation>
-	  </text>
+        <text id='education-menu'>
+            <translation lang='fr'>Formation</translation>
+            <translation lang='en'>Education</translation>
+        </text>
 
-	  <text id='experience-menu'>
-		<translation lang='fr'>Experience</translation>
-		<translation lang='en'>Experience</translation>
-	  </text>
+        <text id='experience-menu'>
+            <translation lang='fr'>Experience</translation>
+            <translation lang='en'>Experience</translation>
+        </text>
 
-	  <text id='project-menu'>
-		<translation lang='fr'>Projets</translation>
-		<translation lang='en'>Projects</translation>
-	  </text>
+        <text id='project-menu'>
+            <translation lang='fr'>Projets</translation>
+            <translation lang='en'>Projects</translation>
+        </text>
 
-	  <text id='contact-menu'>
-		<translation lang='fr'>Contact</translation>
-		<translation lang='en'>Contact</translation>
-	  </text>
+        <text id='contact-menu'>
+            <translation lang='fr'>Contact</translation>
+            <translation lang='en'>Contact</translation>
+        </text>
 
-	  <text id='profession-header'>
-		<translation lang='fr'>Analyste programmeur | Ingénieur</translation>
-		<translation lang='en'>Analyst programmer | Engineer</translation>
-	  </text>
+        <text id='profession-header'>
+            <translation lang='fr'>Analyste programmeur | Ingénieur</translation>
+            <translation lang='en'>Analyst programmer | Engineer</translation>
+        </text>
 
-	  <text id='hire-me-header'>
-		<translation lang='fr'>Recruter moi !</translation>
-		<translation lang='en'>Hire me !</translation>
-	  </text>
+        <text id='hire-me-header'>
+            <translation lang='fr'>Recruter moi</translation>
+            <translation lang='en'>Hire me</translation>
+        </text>
 
-	  <text id='personnal-profile'>
-		<translation lang='fr'>Profil</translation>
-		<translation lang='en'>Personnal profile</translation>
-	  </text>
+        <text id='personnal-profile'>
+            <translation lang='fr'>Profil</translation>
+            <translation lang='en'>Personnal profile</translation>
+        </text>
 
-	  <text id='personnal-description'>
-		<translation lang='fr'>Je suis moi !</translation>
-		<translation lang='en'>I'm me !</translation>
-	  </text>
+        <text id='personnal-description'>
+            <translation lang='fr'>Je suis moi !</translation>
+            <translation lang='en'>I'm me !</translation>
+        </text>
 
-	  <text id='skills-title'>
-		<translation lang='fr'>Compétences</translation>
-		<translation lang='en'>Skills</translation>
-	  </text>
+        <text id='skills-title'>
+            <translation lang='fr'>Compétences</translation>
+            <translation lang='en'>Skills</translation>
+        </text>
 
-	  <text id='education-title'>
-		<translation lang='fr'>Education</translation>
-		<translation lang='en'>Education</translation>
-	  </text>
+        <text id='education-title'>
+            <translation lang='fr'>Education</translation>
+            <translation lang='en'>Education</translation>
+        </text>
 
-	  <text id='graduated'>
-		<translation lang='fr'>diplômé</translation>
-		<translation lang='en'>graduated</translation>
-	  </text>
+        <text id='graduated'>
+            <translation lang='fr'>diplômé</translation>
+            <translation lang='en'>graduated</translation>
+        </text>
 
-	  <text id='engineering-school'>
-		<translation lang='fr'>Ecole d'ingénieur en informatique</translation>
-		<translation lang='en'>Engineering school in IT Science</translation>
-	  </text>
+        <text id='engineering-school'>
+            <translation lang='fr'>Ecole d'ingénieur en informatique</translation>
+            <translation lang='en'>Engineering school in IT Science</translation>
+        </text>
 
-	  <text id='engineering-school-desc'>
-		<translation lang='fr'>L’ISIMA est une grande école d’Ingénieurs en Informatique en Auvergne, axée sur les métiers de l’Informatique et de ses applications. Cette école est située à Clermont-Ferrand et dispose de nombreux partenariats avec des entreprises présentes localement telles que Michelin ou CGI Inc. Elle offre une formation en informatique avec à la fois une formation généraliste et une spécialisation dès la 2e année, combinée avec 2 stages de 5 mois.</translation>
-		<translation lang='en'>ISIMA is a great school of Engineering in IT Science in Auvergne (France). This school is located in Clermont-Ferrand and has many partnerships with companies such as Michelin locally present or CGI Inc. ISIMA offers a computer training, with both general training and specialization from the 2nd year, combined with two courses of 5 months.</translation>
-	  </text>
+        <text id='engineering-school-desc'>
+            <translation lang='fr'>L’ISIMA est une grande école d’Ingénieurs en Informatique en Auvergne, axée sur les métiers de l’Informatique et de ses applications. Cette école est située à Clermont-Ferrand et dispose de nombreux partenariats avec des entreprises présentes localement telles que Michelin ou CGI Inc. Elle offre une formation en informatique avec à la fois une formation généraliste et une spécialisation dès la 2e année, combinée avec 2 stages de 5 mois.</translation>
+            <translation lang='en'>ISIMA is a great school of Engineering in IT Science in Auvergne (France). This school is located in Clermont-Ferrand and has many partnerships with companies such as Michelin locally present or CGI Inc. ISIMA offers a computer training, with both general training and specialization from the 2nd year, combined with two courses of 5 months.</translation>
+        </text>
 
-	  <text id='IT-degree'>
-		<translation lang='fr'>Diplôme universitaire en infortique</translation>
-		<translation lang='en'>Technical University Degree in IT Science</translation>
-	  </text>
+        <text id='IT-degree'>
+            <translation lang='fr'>Diplôme universitaire en infortique</translation>
+            <translation lang='en'>Technical University Degree in IT Science</translation>
+        </text>
 
-	  <text id='IT-degree-description'>
-		<translation lang='fr'>Le département informatique de Clermont-Ferrand a une très longue expérience dans la formation aux métiers de l'informatique. Les enseignements (notamment assurés par des professionnels) portent sur l'informatique d'aujourd'hui qui garantit une bonne insertion professionnelle, mais aussi sur celle de demain qui offre de belles perspectives de poursuites d’études.</translation>
-		<translation lang='en'>The IT department of Clermont-Ferrand has a very long experience in training for careers in computer science. The teachings (some provided by professionals) focus on computing today which ensures good professional integration but also on the future which offers good prospects for further studies.</translation>
-	  </text>
+        <text id='IT-degree-description'>
+            <translation lang='fr'>Le département informatique de Clermont-Ferrand a une très longue expérience dans la formation aux métiers de l'informatique. Les enseignements (notamment assurés par des professionnels) portent sur l'informatique d'aujourd'hui qui garantit une bonne insertion professionnelle, mais aussi sur celle de demain qui offre de belles perspectives de poursuites d’études.</translation>
+            <translation lang='en'>The IT department of Clermont-Ferrand has a very long experience in training for careers in computer science. The teachings (some provided by professionals) focus on computing today which ensures good professional integration but also on the future which offers good prospects for further studies.</translation>
+        </text>
 
-	  <text id='experience-title'>
-		<translation lang='fr'>Expérience</translation>
-		<translation lang='en'>Experience</translation>
-	  </text>
+        <text id='experience-title'>
+            <translation lang='fr'>Expérience</translation>
+            <translation lang='en'>Experience</translation>
+        </text>
 
-	  <text id='april'>
-		<translation lang='fr'>avr.</translation>
-		<translation lang='en'>apr.</translation>
-	  </text>
+        <text id='april'>
+            <translation lang='fr'>avr.</translation>
+            <translation lang='en'>apr.</translation>
+        </text>
 
-	  <text id='january'>
-		<translation lang='fr'>jan.</translation>
-		<translation lang='en'>jan</translation>
-	  </text>
+        <text id='january'>
+            <translation lang='fr'>jan.</translation>
+            <translation lang='en'>jan</translation>
+        </text>
 
-	  <text id='september'>
-		<translation lang='fr'>sep.</translation>
-		<translation lang='en'>sep.</translation>
-	  </text>
+        <text id='september'>
+            <translation lang='fr'>sep.</translation>
+            <translation lang='en'>sep.</translation>
+        </text>
 
-	  <text id='sandwich-course'>
-		<translation lang='fr'>Alternance</translation>
-		<translation lang='en'>Sandwich course</translation>
-	  </text>
+        <text id='sandwich-course'>
+            <translation lang='fr'>Alternance</translation>
+            <translation lang='en'>Sandwich course</translation>
+        </text>
 
-	  <text id='internship'>
-		<translation lang='fr'>Stage</translation>
-		<translation lang='en'>Internship</translation>
-	  </text>
+        <text id='internship'>
+            <translation lang='fr'>Stage</translation>
+            <translation lang='en'>Internship</translation>
+        </text>
 
-	  <text id='job-designation'>
-		<translation lang='fr'>Analyste programmeur</translation>
-		<translation lang='en'>Analyst programmer</translation>
-	  </text>
+        <text id='job-designation'>
+            <translation lang='fr'>Analyste programmeur</translation>
+            <translation lang='en'>Analyst programmer</translation>
+        </text>
 
-	  <text id='job-internship'>
-		<translation lang='fr'>Développeur Java</translation>
-		<translation lang='en'>Java developer</translation>
-	  </text>
+        <text id='job-internship'>
+            <translation lang='fr'>Développeur Java</translation>
+            <translation lang='en'>Java developer</translation>
+        </text>
 
-	  <text id='sandwich-course-desc'>
-		<translation lang='fr'>/* TODO */</translation>
-		<translation lang='en'>/* TODO */</translation>
- 
-	  <text id='internship-zz-desc'>
-		<translation lang='fr'>/* TODO */</translation>
-		<translation lang='en'>/* TODO */</translation>
-	  </text>
+        <text id='sandwich-course-desc'>
+            <translation lang='fr'>/* TODO */</translation>
+            <translation lang='en'>TODO</translation>
+        </text>
 
-	  <text id='internship-dut-desc'>
-		<translation lang='fr'>Stage de 3 mois suivi d'un travail à domicile afin de développer un client Java. L'application permet de récupérer les données d'un capteur cardiaque en utilisant le port infrarouge afin de les traitées et de les affichées. L'application permet également de générer des rapports au format Word de manière automatique grâce à l'API d'OpenOffice.</translation>
-		<translation lang='en'>3 month internship followed by work at home to develop a Java client. The application can retrieve data from a pulse sensor using the infrared port in order processed and displayed. The application also allows you to generate reports in Word format automatically through API OpenOffice.</translation>
-	  </text>
+        <text id='internship-zz-desc'>
+            <translation lang='fr'>TODO</translation>
+            <translation lang='en'>TODO</translation>
+        </text>
 
-	  <text id='teamwork'>
-		<translation lang='fr'>Travail en équipe</translation>
-		<translation lang='en'>Teamwork</translation>
-	  </text>
+        <text id='internship-dut-desc'>
+            <translation lang='fr'>Stage de 3 mois suivi d'un travail à domicile afin de développer un client Java. L'application permet de récupérer les données d'un capteur cardiaque en utilisant le port infrarouge afin de les traitées et de les affichées. L'application permet également de générer des rapports au format Word de manière automatique grâce à l'API d'OpenOffice.</translation>
+            <translation lang='en'>3 month internship followed by work at home to develop a Java client. The application can retrieve data from a pulse sensor using the infrared port in order processed and displayed. The application also allows you to generate reports in Word format automatically through API OpenOffice.</translation>
+        </text>
 
-	  <text id='contact-title'>
-		<translation lang='fr'>Contactez moi</translation>
-		<translation lang='en'>Keep in touch with me</translation>
-	  </text>
+        <text id='teamwork'>
+            <translation lang='fr'>Travail en équipe</translation>
+            <translation lang='en'>Teamwork</translation>
+        </text>
 
-	  <text id='send'>
-		<translation lang='fr'>Envoyer</translation>
-		<translation lang='en'>Send</translation>
-	  </text>
+        <text id='contact-title'>
+            <translation lang='fr'>Contactez moi</translation>
+            <translation lang='en'>Keep in touch with me</translation>
+        </text>
 
-	  <text id='contact-me'>
-		<translation lang='fr'>Contactez moi à </translation>
-		<translation lang='en'>Contact me at </translation>
-	  </text>
+        <text id='send'>
+            <translation lang='fr'>Envoyer</translation>
+            <translation lang='en'>Send</translation>
+        </text>
 
-	  <text id='add-me'>
-		<translation lang='fr'>Ajoutez moi </translation>
-		<translation lang='en'>Add me </translation>
-	  </text>
+        <text id='contact-me'>
+            <translation lang='fr'>Contactez moi à </translation>
+            <translation lang='en'>Contact me at </translation>
+        </text>
 
-	  <text id='follow-me'>
-		<translation lang='fr'>Suivez moi sur </translation>
-		<translation lang='en'>Follow me on </translation>
-	  </text>
+        <text id='add-me'>
+            <translation lang='fr'>Ajoutez moi </translation>
+            <translation lang='en'>Add me </translation>
+        </text>
 
-	  <text id='contact-info'>
-		<translation lang='fr'>Coordonnées</translation>
-		<translation lang='en'>Contact Info</translation>
-	  </text>
+        <text id='follow-me'>
+            <translation lang='fr'>Suivez moi sur </translation>
+            <translation lang='en'>Follow me on </translation>
+        </text>
 
-	  <text id=''>
-		<translation lang='fr'></translation>
-		<translation lang='en'></translation>
-	  </text>
+        <text id='contact-info'>
+            <translation lang='fr'>Coordonnées</translation>
+            <translation lang='en'>Contact Info</translation>
+        </text>
 
-	  <text id=''>
-		<translation lang='fr'></translation>
-		<translation lang='en'></translation>
-	  </text>
+        <text id=''>
+            <translation lang='fr'></translation>
+            <translation lang='en'></translation>
+        </text>
 
-	  <text id=''>
-		<translation lang='fr'></translation>
-		<translation lang='en'></translation>
-	  </text>
-        
-	</language>
+    </language>
 </stati18n>
