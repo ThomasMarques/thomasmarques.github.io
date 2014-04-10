@@ -34,7 +34,7 @@ a:link,a:visited,.navbar-default .navbar-nav>li>a:hover,
 p {
     text-align: justify;
 }
-    
+
 
 .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
     background:0 0;
@@ -300,10 +300,6 @@ h1,h2,h3,h4,h5,h6 {
     color: #fff;
 }
 
-.key-words {
-    color: #e74c3c;
-}
-
 #page-profile img {
     line-height: 0;
     display: inline-block;
@@ -337,11 +333,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #page-education h3 {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
-#page-education h5 {
-    padding-bottom: 10px;
+#page-education p {
+    padding-bottom: 15px;
 }
 
 #page-education .graduated-date {
@@ -351,19 +347,24 @@ h1,h2,h3,h4,h5,h6 {
 #page-education img {
     padding-top: 20px;
     display: block; 
-    margin: 0 auto; 
+    margin: 0 auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none; 
 }
 
 #page-education img.isima {
     width: 400px;
-    margin-top: 20px;
+    margin-top: 15px;
     opacity:0.1;
     filter:alpha(opacity=10);
 }
 
 #page-education img.iut {
     width: 350px;
-    margin-top: -60px;
+    margin-top: -80px;
     opacity:0.12;
     filter:alpha(opacity=12);
 }
