@@ -102,17 +102,17 @@
             <translation lang='en'>Experience</translation>
         </text>
 
-        <text id='april'>
+        <text id='april' insertion='before'>
             <translation lang='fr'>avr.</translation>
             <translation lang='en'>apr.</translation>
         </text>
 
-        <text id='january'>
+        <text id='january' insertion='before'>
             <translation lang='fr'>jan.</translation>
             <translation lang='en'>jan</translation>
         </text>
 
-        <text id='september'>
+        <text id='september' insertion='before'>
             <translation lang='fr'>sep.</translation>
             <translation lang='en'>sep.</translation>
         </text>
@@ -138,7 +138,7 @@
         </text>
 
         <text id='sandwich-course-desc'>
-            <translation lang='fr'>/* TODO */</translation>
+            <translation lang='fr'>TODO</translation>
             <translation lang='en'>TODO</translation>
         </text>
 
@@ -185,6 +185,11 @@
         <text id='contact-info'>
             <translation lang='fr'>Coordonnées</translation>
             <translation lang='en'>Contact Info</translation>
+        </text>
+
+        <text id='key-words'>
+            <translation lang='fr'>Mots clés :</translation>
+            <translation lang='en'>Key words : </translation>
         </text>
 
         <text id=''>

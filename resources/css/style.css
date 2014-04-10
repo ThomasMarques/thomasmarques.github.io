@@ -23,9 +23,6 @@ a img {
     border:0;
 }
 
-.navbar-default .navbar-nav>li>a {
-}
-
 a:link,a:visited,.navbar-default .navbar-nav>li>a:hover, 
 .navbar-default .navbar-nav>li>a:focus,a:hover,a:active,.navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:hover, 
@@ -259,15 +256,23 @@ h1,h2,h3,h4,h5,h6 {
 
 #page-profile,#page-education,#page-projects {
     background:#fff;
-    padding:75px 0;
+    padding:50px 0;
 }
 
 #page-skills, #page-experience {
-    padding: 75px 0;
+    padding: 50px 0;
     background: #f0f0f0;
 }
 
 #page-contact {
-    padding: 75px 0;
+    padding: 50px 0;
     background: #e74c3c;
+}
+
+.contact-info a{
+    color: #fff;
+}
+
+.key-words {
+    color: #e74c3c;
 }
