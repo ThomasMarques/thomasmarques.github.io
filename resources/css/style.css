@@ -1,6 +1,6 @@
 body,html {
-    height:100%;
     width:100%;
+    height:100%;
     font-family:'Source Sans Pro',Helvetica,Arial,sans-serif;
     color:#757575;
     background-image: url('../images/background.png');
@@ -59,6 +59,10 @@ p {
     text-align: center;
     color: #555;
     text-transform: uppercase;
+}
+
+.centered {
+    text-align: center;
 }
 
 #page-contact {
@@ -138,6 +142,7 @@ h1,h2,h3,h4,h5,h6 {
 #page-welcome {
     width:100%;
     height:100%;
+    min-height: 100%;
     position:relative;
     overflow:hidden;
     text-align:center;
@@ -207,18 +212,18 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 @-webkit-keyframes shaking {
-	0% { -webkit-transform: scale(1); }
-	50% { -webkit-transform: scale(0.9); }
-	100% { -webkit-transform: scale(1); }
+    0% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(0.9); }
+    100% { -webkit-transform: scale(1); }
 }
 
 .btn.btn-clear.selected,.btn.btn-clear:hover {
     background:#fff;
-	-webkit-animation-name: shaking;
-	-webkit-animation-duration: 200ms;
-	-webkit-transform-origin:50% 50%;
-	-webkit-animation-iteration-count: 2;
-	-webkit-animation-timing-function: linear;
+    -webkit-animation-name: shaking;
+    -webkit-animation-duration: 200ms;
+    -webkit-transform-origin:50% 50%;
+    -webkit-animation-iteration-count: 2;
+    -webkit-animation-timing-function: linear;
 }
 
 .btn.btn-default {
@@ -280,6 +285,7 @@ h1,h2,h3,h4,h5,h6 {
     padding:75px 0; 
     width:100%;
     height:100%;
+    min-height: 100%;
     overflow:hidden;
 }
 
@@ -288,6 +294,7 @@ h1,h2,h3,h4,h5,h6 {
     background: #f0f0f0; 
     width:100%;
     height:100%;
+    min-height: 100%;
     overflow:hidden;
 }
 
@@ -296,6 +303,7 @@ h1,h2,h3,h4,h5,h6 {
     background: #e74c3c; 
     width:100%;
     height:100%;
+    min-height: 100%;
     overflow:hidden;
 }
 
@@ -408,5 +416,22 @@ h1,h2,h3,h4,h5,h6 {
 @media (max-width: 826px) {
     #page-education img {
         display: none;
+    }
+
+    #page-welcome, #page-profile, #page-education, #page-projects, #page-skills, #page-experience, #page-contact {
+        height:auto;
+    }
+    
+    #page-welcome a.hire-me {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 382px) {
+    
+    #page-welcome .social-icons
+    {
+        width: 260px;
+        margin: 0px auto;
     }
 }
