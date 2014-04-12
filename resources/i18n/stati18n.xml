@@ -138,18 +138,18 @@
         </text>
 
         <text id='sandwich-course-desc'>
-            <translation lang='fr'>TODO</translation>
-            <translation lang='en'>TODO</translation>
+            <translation lang='fr'>Alternance obtenu suite à mon stage de deuxième année. J'ai été intégré à l’équipe projet (6 personnes) afin de contribuer aux développements en cours et proposer des nouvelles solutions. Dans un premier temps, ces solutions permettront d'améliorer le processus de développement avec la généralisation de tests. Dans un second temps, le but sera de diminuer les temps de réponse de l’outil chez les utilisateurs présents sur d’autres continents.</translation>
+            <translation lang='en'>Sandwich course got after my second year internship. I was included in the project team (6 people) to contribute to the ongoing development and propose new solutions. At first, these solutions will enhance the development process with the generalization of tests. In a second step, the goal will be to reduce the response time of the tool among users on other continents.</translation>
         </text>
 
         <text id='internship-zz-desc'>
-            <translation lang='fr'>TODO</translation>
-            <translation lang='en'>TODO</translation>
+            <translation lang='fr'>Stage de 6 mois au Centre de Technologies Michelin de Ladoux dans le but de travailler sur la refonte d’un framework de visualisation. Cet outil permet de tracer des mesures et des modèles de lois de comportements matériaux. Ce stage comprenait l'etude de l’architecture actuelle du Framework, la proposition de solutions techniques pour répondre aux besoins, leur implémentation et la rédaction d’une documentation.</translation>
+            <translation lang='en'>6 month internship at Ladoux Technology Center in order to work on redesigning a visualization framework. This tool allows to draw measures and models of behavior laws of materials. This intership included the study of the current architecture of the Framework, the proposed technical solutions to meet the needs, the implementation of the solutions adopted and writing technical documentation.</translation>
         </text>
 
         <text id='internship-dut-desc'>
-            <translation lang='fr'>Stage de 3 mois suivi d'un travail à domicile afin de développer un client Java. L'application permet de récupérer les données d'un capteur cardiaque en utilisant le port infrarouge afin de les traitées et de les affichées. L'application permet également de générer des rapports au format Word de manière automatique grâce à l'API d'OpenOffice.</translation>
-            <translation lang='en'>3 month internship followed by work at home to develop a Java client. The application can retrieve data from a pulse sensor using the infrared port in order processed and displayed. The application also allows you to generate reports in Word format automatically through API OpenOffice.</translation>
+            <translation lang='fr'>Stage de 3 mois suivi d'un travail à domicile afin de développer un client Java. L'application permet de récupérer les données d'un capteur cardiaque en utilisant le port infrarouge afin de les traiter et de les afficher. L'application permet également de générer des rapports au format Word de manière automatique grâce à l'API d'OpenOffice.</translation>
+            <translation lang='en'>3 month internship followed by work at home to develop a Java client. The application can retrieve data from a pulse sensor using the infrared port in order to analyze and display them. The application also allows you to generate reports in Word format automatically through API OpenOffice.</translation>
         </text>
 
         <text id='teamwork'>
