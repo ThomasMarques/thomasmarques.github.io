@@ -258,15 +258,8 @@
             <div class="spacer to-fade"></div>
         </header>
         <div class="row">
-            <div class="col-sm-5 contact-info">
-                <h3><span class="stati18n en s18n-contact-info"></span></h3>
-                <p><a href="https://www.linkedin.com/pub/thomas-marques/85/520/961"><i class="fa fa-linkedin-square"></i> <span class="stati18n en s18n-add-me"></span> Linkedin</a></p>
-                <p><a href="https://github.com/ThomasMarques"><i class="fa fa-github-square"></i> <span class="stati18n en s18n-follow-me"></span> Github</a></p>
-                <p><a href="mailto:marquesthom@gmail.com"><i class="fa fa-envelope"></i> <span class="stati18n en s18n-contact-me"></span> marquesthom@gmail.com</a></p>
-            </div>
-
             <div class="col-sm-7">
-                <form class="form-horizontal" id="contact-form" novalidate="novalidate">
+                <form class="form-horizontal" id="contact-form" novalidate="novalidate" action="malto:marquesthom@gmail.com">
                     <div class="control-group">
                         <div class="controls">
                             <input type="text" name="name" id="name" placeholder="Name" class="form-control input-lg ">
@@ -283,10 +276,17 @@
                         </div>
                     </div>
                     <div class="form-actions">
-                        <button type="submit" class="btn btn-default btn-lg btn-block"><span class="stati18n en s18n-send"></span></button>
+                        <button type="submit" class="btn btn-default btn-lg btn-block send"><span class="stati18n en s18n-send"></span></button>
                     </div>
                 </form>
             </div>
+            <div class="col-sm-5 contact-info">
+                <h3><span class="stati18n en s18n-contact-info"></span></h3>
+                <p><a href="https://www.linkedin.com/pub/thomas-marques/85/520/961"><i class="fa fa-linkedin-square"></i> <span class="stati18n en s18n-add-me"></span> <span class="to-fade" >Linkedin</span></a></p>
+                <p><a href="https://github.com/ThomasMarques"><i class="fa fa-github-square"></i> <span class="stati18n en s18n-follow-me"></span> <span class="to-fade" >Github</span></a></p>
+                <p><a href="mailto:marquesthom@gmail.com"><i class="fa fa-envelope"></i> <span class="stati18n en s18n-contact-me"></span> <span class="to-fade" >marquesthom@gmail.com</span></a></p>
+            </div>
+
         </div>
     </div>
 </section>

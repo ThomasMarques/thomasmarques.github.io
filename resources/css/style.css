@@ -267,7 +267,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn-mail i {
-    font-size:26px;
+    font-size:25px;
     top:10px;
     position:relative;
 }
@@ -411,32 +411,77 @@ h1,h2,h3,h4,h5,h6 {
     filter:alpha(opacity=10)!important;
 }
 
+#page-contact i.fa {
+    position: relative;
+    top: 5px;
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+#page-contact i.fa.fa-envelope {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#page-contact .controls input {
+    margin-bottom: 20px;
+}
+
+#page-contact .send {
+    margin-top: 20px;
+}
+
+#page-contact .contact-info h3 {
+    margin-top: 0px;
+}
 
 
 @media (max-width: 826px) {
+    
     #page-education img {
         display: none;
     }
 
     #page-welcome, #page-profile, #page-education, #page-projects, #page-skills, #page-experience, #page-contact {
         height:auto;
+        padding-top: 50px;
+        padding-bottom: 20px;
     }
-    
+
     #page-welcome a.hire-me {
         margin-bottom: 30px;
     }
-    
+
     #page-profile .profile {
         width: 208px;
         margin: 0px auto;
     }
+
+    #page-contact .send {
+        margin-bottom: 40px;
+    }
+
+    #page-contact .contact-info {
+        padding-left: 15px;
+    }
+
+    #page-contact .contact-info h3 {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 382px) {
-    
+
     #page-welcome .social-icons
     {
         width: 260px;
         margin: 0px auto;
+    }
+}
+
+@media (min-width:992px) {
+
+    #page-contact .contact-info {
+        padding-left: 7%;
     }
 }
