@@ -427,12 +427,28 @@ h1,h2,h3,h4,h5,h6 {
     margin-top: 0px;
 }
 
+#page-experience .logo-techno {
+    margin-top: -50px;
+    width: 100%;
+    opacity:0.10;
+    filter:alpha(opacity=10);
+}
+
+#page-experience .logo-techno-sous-div {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+
+#page-experience .logo-techno-sous-div img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
 
 @media (max-width: 826px) {
-    
-    #page-education img {
-        display: none;
-    }
 
     #page-welcome, #page-profile, #page-education, #page-projects, #page-skills, #page-experience, #page-contact {
         padding-top: 50px;
@@ -467,6 +483,16 @@ h1,h2,h3,h4,h5,h6 {
     {
         width: 260px;
         margin: 0px auto;
+    }
+}
+
+@media (max-width: 991px) {
+    #page-education img {
+        display: none;
+    }
+    
+    #page-experience .logo-techno img {
+        display: none;
     }
 }
 
