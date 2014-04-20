@@ -125,15 +125,40 @@ h1,h2,h3,h4,h5,h6 {
     height: 55px;
 }
 
-.language-selector {
+.language-selector ul {
+    list-style: none;
+}
+
+.language-selector li a {
+    width: 28px;
+    height: 22px;
+    float: left;
+    display: block;
+    text-indent: -9999px;
+}
+
+.language-selector li a.french, .language-selector li a.french.off:hover {
     position: fixed;
     right: 20px;
     top: 15px;
+    background: url(../images/langage-flags.png) no-repeat 0px 0px;
 }
 
-.language-selector img {
-    cursor:pointer;
+.language-selector li a.english, .language-selector li a.english.off:hover{
+    position: fixed;
+    right: 56px;
+    top: 15px;
+    background: url(../images/langage-flags.png) no-repeat -28px 0px;
 }
+
+.language-selector li a.french.off {
+    background: url(../images/langage-flags.png) no-repeat 0px -22px;
+}
+
+.language-selector li a.english.off {
+    background: url(../images/langage-flags.png) no-repeat -28px -22px;
+}
+
 
 #page-welcome {
     width:100%;
