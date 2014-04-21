@@ -187,15 +187,17 @@ h1,h2,h3,h4,h5,h6 {
     padding:0;
 }
 
-#page-welcome header p {
+#page-welcome header span {
     font-size:2em;
     display:inline-block;
     margin-bottom:5px;
     letter-spacing:.1em;
     line-height:3em;
     text-transform:uppercase;
-    padding:0 8px;
+    padding:0 5px;
+    text-align: center;
 }
+
 .social-icons .btn {
     margin-right:15px;
 }
@@ -539,6 +541,21 @@ footer p a {
     {
         width: 260px;
         margin: 0px auto;
+    }
+}
+
+@media (max-width: 540px) {
+    
+    #page-welcome header .profession-header {
+        padding: 0 20px;
+    }
+    
+    #page-welcome header span {
+        line-height: 2em;
+    }
+    
+    #page-welcome header span.profession-pipe {
+        display: none;
     }
 }
 

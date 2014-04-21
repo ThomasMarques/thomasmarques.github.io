@@ -42,9 +42,19 @@
             <translation lang='en'>Contact</translation>
         </text>
 
-        <text id='profession-header'>
-            <translation lang='fr'>Analyste développeur | Ingénieur</translation>
-            <translation lang='en'>Analyst developer | Engineer</translation>
+        <text id='profession-analyst'>
+            <translation lang='fr'>Analyste</translation>
+            <translation lang='en'>Analyst</translation>
+        </text>
+
+        <text id='profession-programmer'>
+            <translation lang='fr'>développeur</translation>
+            <translation lang='en'>developer</translation>
+        </text>
+
+        <text id='profession-engineer'>
+            <translation lang='fr'>Ingénieur</translation>
+            <translation lang='en'>Engineer</translation>
         </text>
 
         <text id='hire-me-header'>
