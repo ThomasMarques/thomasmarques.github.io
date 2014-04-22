@@ -135,6 +135,7 @@ h1,h2,h3,h4,h5,h6 {
     float: left;
     display: block;
     text-indent: -9999px;
+    cursor: pointer;
 }
 
 .language-selector li a.french, .language-selector li a.french.off:hover {
