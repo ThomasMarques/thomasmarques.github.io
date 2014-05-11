@@ -257,8 +257,82 @@
                     <h2 class="section-title"><span class="stati18n s18n-project-menu"></span></h2>
                     <div class="spacer to-fade"></div>
                 </header>
-                <div class="row">
-                    // TODO Add Projects
+                <div class="row projects-links">
+                    <a onclick="changeProjectShow('lac')" >View lac project</a>
+                </div>
+                <div class="row projects-lac hidden">
+                    <div class="col-md-8">
+                        <a onclick="changeProjectShow('')" >Hide lac project</a>
+                        <article class="projects">
+                            <header>
+                                <h3 class="to-fade">Institut de Médecine du Travail</h3>
+                                <h5 class="to-fade"><span class="stati18n s18n-internship"></span> - <span class="stati18n s18n-job-internship"></span></h5>
+                                <p class="to-fade">
+                                    Clermont-Ferrand, France
+                                </p>
+                                <p class="to-fade">
+                                    <i class="stati18n s18n-april"> 2011</i> - <i class="stati18n s18n-january"> 2011</i>
+                                </p>
+                            </header>
+                            <p>
+                                Dans le cadre de mes études à l’IUT de Clermont-Ferrand,
+                                j'ai effectué un stage de dix semaines à l'Institut d’Hygiène
+                                Industrielle de Médecine du Travail et d’Ergonomie sous la tutelle
+                                du M. Gil Boudet (Docteur en physiologie (PhD), Ergonome) et du
+                                Pr Alain Chamoux (Chef du Service).
+                                Ce stage visait l'amélioration et la migration d'une application
+                                existante, celle-ci en développement depuis plusieurs années était codée en Delphi.
+                                La nouvelle application devait a été réalisé en Java et elle fût renommé <em>Lac 2011</em>.
+                            </p>
+                            <p>
+                                Afin de réaliser ce projet, j'ai utilisé un langage de programmation
+                                orienté objet : <em>le Java</em>. J'ai utilisé <em>Eclipse</em> comme environnement
+                                de développement et je me suis aussi servis d’un outil, notamment présent dans Eclipse,
+                                permettant de générer la JavaDoc, et ainsi transmettre une documentation programmeur
+                                afin d'assurer au maximum le suivi du projet.
+                            </p>
+                            <p>
+                                La deuxième étape consistait à réaliser l'analyse du projet,
+                                j'ai utilisé la méthode <em>U.M.L.</em> (Unified Modeling Language),
+                                cette analyse à aboutis au Modèle Logique de Données et au Diagramme de Cas d'Utilisation.
+                            </p>
+                            <p>
+                                Lors du codage de l'application, j'ai pu utiliser quelques API intéressante.
+                                Deux de mes missions que je vais détailler étaient :
+                            </p>
+                            <ul>
+                                <li>Transfert de données infra-rouge entre une montre <em>Polar</em> et Lac.</li>
+                                <li>Génération de graphiques en fonction des données</li>
+                            </ul>
+                            <br/>
+                            <p>
+                                Pour le transfert de données infra-rouge depuis un cardio-fréquencemètre <em>Polar</em>
+                                la marque suédoise fournissait une DLL codé en C. En Java, il est impossible d’utiliser
+                                directement une Bibliothèque logicielle codé dans un autre langage, mais Java dispose
+                                de nombreux outils pour aider les développeurs. J'ai opté pour JNA une implémentation de JNI. Cette librairie permet
+                                également d’appeler des fonctions natives (codés dans un langage différents de Java),
+                                cet outil est très répandu chez les développeurs, ce qui un gage de qualité et d’accessibilité.
+                                
+                            </p>
+                            <p>
+                                Pour la génération de graphiques, j'ai opté pour la librairie <em>JFreeChart</em>.
+                                Cette librairie est sans doute, dans le monde Java, l'outil de génération de
+                                graphiques le plus connu et le plus réputé, pour diverses raisons.
+                                JFreeChart compte aujourd’hui plus de milles classes dédiées à la réalisation
+                                de  différents graphiques. Cette Bibliothèque logicielle m'a beaucoup aidés
+                                lors de la programmation de l’application. En effet, c’est cet outil qui m'a
+                                permis de créer les différents graphiques présents dans l’application (courbe, histogramme, camembert).
+                            </p>
+                            <p class="key-words to-fade">
+                                <i> UML, Java, Polar, JFreeChart, JNA, Reporting, Windows, Mac</i>
+                            </p>
+                        </div>
+                    </article>
+                    <div class="col-md-4">
+                        <img src="resources/images/profile.png" alt="test" />
+                        <img src="resources/images/profile.png" alt="test" />
+                        <img src="resources/images/profile.png" alt="test" />
+                    </div>
                 </div>
             </div>
         </section>

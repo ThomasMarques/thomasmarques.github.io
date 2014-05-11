@@ -14,3 +14,14 @@ $(document).ready(function () {
         easing: "swing"
     })
 });
+
+function changeProjectShow(projectName) {
+    if(projectName == '') {
+        $("#page-projects .row").addClass("hidden");
+        $("#page-projects .row.projects-links").removeClass("hidden");
+    }
+    else {
+        $("#page-projects .row.projects-" + projectName).removeClass("hidden");
+        $("#page-projects .row.projects-links").addClass("hidden");
+    }
+}
