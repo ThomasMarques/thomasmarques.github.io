@@ -1,0 +1,25 @@
+[
+    {
+        "lang": "fr",
+        "home-menu": "Accueil",
+        "profile-menu": "Profil",
+        "skills-menu": "Compétences",
+        "education-menu": "Formation",
+        "experience-menu": "Expérience",
+        "project-menu": "Projets",
+        "contact-menu": "Contact"
+    },
+    {
+        "lang": "en",
+        "home-menu": "Home",
+        "profile-menu": "Profile",
+        "skills-menu": "Skills",
+        "education-menu": "Education",
+        "experience-menu": "Experience",
+        "project-menu": "Projects",
+        "contact-menu": "Contact"
+    }
+]
+
+
+        
