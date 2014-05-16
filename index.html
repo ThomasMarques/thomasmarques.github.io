@@ -11,7 +11,6 @@
         <link href="resources/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="resources/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
         <link href="resources/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="resources/i18n/stati18n.min.css" rel="stylesheet" type="text/css">
         <link href="resources/css/font-face.css" rel="stylesheet" type="text/css">
         <link href="resources/css/style.css" rel="stylesheet" type="text/css">
     </head>
@@ -28,19 +27,19 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav" id="main-menu">
-                        <li><a href="#page-welcome"><span class="stati18n s18n-home-menu"></span></a></li>
-                        <li><a href="#page-profile"><span class="stati18n s18n-profile-menu"></span></a></li>
-                        <li><a href="#page-skills"><span class="stati18n s18n-skills-menu"></span></a></li>
-                        <li><a href="#page-education"><span class="stati18n s18n-education-menu"></span></a></li>
-                        <li><a href="#page-experience"><span class="stati18n s18n-experience-menu"></span></a></li>
-                        <li><a href="#page-projects"><span class="stati18n s18n-project-menu"></span></a></li>
-                        <li><a href="#page-contact"><span class="stati18n s18n-contact-menu"></span></a></li>
+                        <li><a href="#page-welcome" class="i18n" i18n-key="home-menu">Home</a></li>
+                        <li><a href="#page-profile" class="i18n" i18n-key="profile-menu">Profil</a></li>
+                        <li><a href="#page-skills" class="i18n" i18n-key="skills-menu">Skills</a></li>
+                        <li><a href="#page-education" class="i18n" i18n-key="education-menu">Education</a></li>
+                        <li><a href="#page-experience" class="i18n" i18n-key="experience-menu">Experience</a></li>
+                        <li><a href="#page-projects" class="i18n" i18n-key="project-menu">Project</a></li>
+                        <li><a href="#page-contact" class="i18n" i18n-key="contact-menu">Contact</a></li>
                     </ul>
                 </div>
                 <span class="language-selector">
                     <ul class="langage">
-                        <li><a title="English" class="english stati18n-language-selector" value="en">English</a></li>
-                        <li><a title="Français" class="french stati18n-language-selector off" value="fr">Français</a></li>
+                        <li><a title="English" class="i18n-language-selector english-flag to-fade" value="en">English</a></li>
+                        <li><a title="Français" class="i18n-language-selector french-flag to-fade off" value="fr">Français</a></li>
                     </ul>
                 </span>
             </div>
@@ -50,10 +49,10 @@
                 <header class="centered">
                     <h1>Thomas Marques</h1>
                     <div class="profession-header">
-                        <span class="stati18n s18n-profession-analyst"></span>
-                        <span class="stati18n s18n-profession-programmer"></span>
+                        <span class="i18n" i18n-key="profession-analyst"></span>
+                        <span class="i18n" i18n-key="profession-programmer"></span>
                         <span class="profession-pipe to-fade">|</span>
-                        <span class="stati18n s18n-profession-engineer"></span>
+                        <span class="i18n" i18n-key="profession-engineer"></span>
                     </div>
                 </header>
                 <div class="social-icons">
@@ -63,14 +62,14 @@
                     <a href="https://www.facebook.com/thoumasch" class="btn btn-round btn-clear btn-facebook"><i class="fa fa-facebook"></i></a>
                     <a href="mailto:marquesthom@gmail.com" class="btn btn-round btn-clear btn-mail"><i class="fa fa-envelope"></i></a>
                 </div>
-                <a href="#page-contact" class="btn btn-default hire-me to-fade hire-me"><span class="stati18n s18n-hire-me-header"></span></a>
+                <a href="#page-contact" class="btn btn-default hire-me to-fade hire-me"><span class="i18n" i18n-key="hire-me-header"></span></a>
             </div>
         </section>
 
         <section id="page-profile" class="page-profile">
             <div class="container">
                 <header class="section-header">
-                    <h2 class="section-title"><span class="stati18n s18n-personnal-profile"></span></h2>
+                    <h2 class="section-title"><span class="i18n" i18n-key="personnal-profile"></span></h2>
                     <div class="spacer to-fade"></div>
                 </header>
                 <div class="row">
@@ -78,7 +77,7 @@
                         <div class="profile"><img src="resources/images/profile.png" alt="profile"></div> 
                     </div>
                     <div class="col-md-9">
-                        <p class="stati18n s18n-personnal-description"></p>
+                        <p class="i18n" i18n-key="personnal-description"></p>
                     </div>
                 </div>
             </div> 
@@ -88,7 +87,7 @@
             <div class="container">
 
                 <header class="section-header">
-                    <h2 class="section-title"><span class="stati18n s18n-skills-title"></span></h2>
+                    <h2 class="section-title"><span class="i18n" i18n-key="skills-title"></span></h2>
                     <div class="spacer to-fade"></div>
                 </header>
                 <div class="row">
@@ -136,7 +135,7 @@
         <section id="page-education" class="page-education">
             <div class="container">
                 <header class="section-header">
-                    <h2 class="section-title"><span class="stati18n s18n-education-title"></span></h2>
+                    <h2 class="section-title"><span class="i18n" i18n-key="education-title"></span></h2>
                     <div class="spacer to-fade"></div>
                 </header>
                 <div class="row">
@@ -145,9 +144,9 @@
                             <header>
                                 <h3 class="to-fade">ISIMA</h3>
                                 <h5 class="to-fade">Institut Supérieur d’Informatique, de Modélisation et de leurs Applications</h5>
-                                <p class="graduated-date to-fade"><span class="stati18n s18n-engineering-school"></span> - <strong><span class="stati18n s18n-graduated"></span>:</strong> 2014</p>
+                                <p class="graduated-date to-fade"><span class="i18n" i18n-key="engineering-school"></span> - <strong><span class="i18n" i18n-key="graduated"></span>:</strong> 2014</p>
                             </header>
-                            <p class="stati18n s18n-engineering-school-desc"></p>
+                            <p class="i18n" i18n-key="engineering-school-desc"></p>
                             <img src="resources/images/isima-logo.png" alt="" class="isima to-fade" />
                         </article>
                     </div>
@@ -156,9 +155,9 @@
                             <header>
                                 <h3 class="to-fade">DUT</h3>
                                 <h5 class="to-fade">Diplôme Universitaire de Technologie</h5>
-                                <p class="graduated-date to-fade"><span class="stati18n s18n-IT-degree"></span> - <strong><span class="stati18n s18n-graduated"></span>:</strong> 2011</p>
+                                <p class="graduated-date to-fade"><span class="i18n" i18n-key="IT-degree"></span> - <strong><span class="i18n" i18n-key="graduated"></span>:</strong> 2011</p>
                             </header>
-                            <p class="stati18n s18n-IT-degree-description"></p>
+                            <p class="i18n" i18n-key="IT-degree-description"></p>
                             <img src="resources/images/iut-logo.png" alt="" class="iut to-fade" />
                         </article>
                     </div>
@@ -170,7 +169,7 @@
         <section id="page-experience" class="page-experience">
             <div class="container">
                 <header class="section-header">
-                    <h2 class="section-title"><span class="stati18n s18n-experience-title"></span></h2>
+                    <h2 class="section-title"><span class="i18n" i18n-key="experience-title"></span></h2>
                     <div class="spacer to-fade"></div>
                 </header>
                 <div class="row">
@@ -178,19 +177,19 @@
                         <article class="experience">
                             <header>
                                 <h3 class="to-fade">CGI Inc.</h3>
-                                <h5 class="to-fade"><span class="stati18n s18n-sandwich-course"></span> - <span class="stati18n s18n-job-designation"></span></h5>
+                                <h5 class="to-fade"><span class="i18n" i18n-key="sandwich-course"></span> - <span class="i18n" i18n-key="job-designation"></span></h5>
                                 <p class="to-fade">
                                     Clermont-Ferrand, France
                                 </p>
                                 <p class="to-fade">
-                                    <i class="stati18n s18n-september"> 2013</i> - <i class="stati18n s18n-september"> 2014</i>
+                                    <i class="i18n" i18n-key="september"> 2013</i> - <i class="i18n" i18n-key="september"> 2014</i>
                                 </p>
                             </header>
                             <p class="to-fade">
-                                <span class="stati18n s18n-sandwich-course-desc"></span>
+                                <span class="i18n" i18n-key="sandwich-course-desc"></span>
                             </p>
                             <p class="key-words to-fade">
-                                <i>UML, C++, Qt, QwtPlot, Design pattern, </i><span class="stati18n s18n-teamwork"></i>
+                                <i>UML, C++, Qt, QwtPlot, Design pattern, </i><span class="i18n" i18n-key="teamwork"></i>
                             </p>
                         </article>
                     </div>
@@ -198,19 +197,19 @@
                         <article class="experience">
                             <header>
                                 <h3 class="to-fade">CGI Inc.</h3>
-                                <h5 class="to-fade"><span class="stati18n s18n-internship"></span> - <span class="stati18n s18n-job-designation"></span></h5>
+                                <h5 class="to-fade"><span class="i18n" i18n-key="internship"></span> - <span class="i18n" i18n-key="job-designation"></span></h5>
                                 <p class="to-fade">
                                     Clermont-Ferrand, France
                                 </p>
                                 <p class="to-fade">
-                                    <i class="stati18n s18n-april"> 2013</i> - <i class="stati18n s18n-september"> 2013</i>
+                                    <i class="i18n" i18n-key="april"> 2013</i> - <i class="i18n" i18n-key="september"> 2013</i>
                                 </p>
                             </header>
                             <p>
-                                <span class="stati18n s18n-internship-zz-desc"></span>
+                                <span class="i18n" i18n-key="internship-zz-desc"></span>
                             </p>
                             <p class="key-words to-fade">
-                                <i>UML, C++, Qt, QwtPlot, Design pattern, </i><i class="stati18n s18n-teamwork"></i>
+                                <i>UML, C++, Qt, QwtPlot, Design pattern, </i><i class="i18n" i18n-key="teamwork"></i>
                             </p>
                         </article>
                     </div>
@@ -218,15 +217,15 @@
                         <article class="experience">
                             <header>
                                 <h3 class="to-fade">Institut de Médecine du Travail</h3>
-                                <h5 class="to-fade"><span class="stati18n s18n-internship"></span> - <span class="stati18n s18n-job-internship"></span></h5>
+                                <h5 class="to-fade"><span class="i18n" i18n-key="internship"></span> - <span class="i18n" i18n-key="job-internship"></span></h5>
                                 <p class="to-fade">
                                     Clermont-Ferrand, France
                                 </p>
                                 <p class="to-fade">
-                                    <i class="stati18n s18n-april"> 2011</i> - <i class="stati18n s18n-january"> 2011</i>
+                                    <i class="i18n" i18n-key="april"> 2011</i> - <i class="i18n" i18n-key="january"> 2011</i>
                                 </p>
                             </header>
-                            <p class="stati18n s18n-internship-dut-desc"></p>
+                            <p class="i18n" i18n-key="internship-dut-desc"></p>
                             <p class="key-words to-fade">
                                 <i>UML, Java, Charts, Reporting, APIs</i>
                             </p>
@@ -254,7 +253,7 @@
             <div class="container">
 
                 <header class="section-header">
-                    <h2 class="section-title"><span class="stati18n s18n-project-menu"></span></h2>
+                    <h2 class="section-title"><span class="i18n" i18n-key="project-menu"></span></h2>
                     <div class="spacer to-fade"></div>
                 </header>
                 <div class="row projects-links">
@@ -266,12 +265,12 @@
                         <article class="projects">
                             <header>
                                 <h3 class="to-fade">Institut de Médecine du Travail</h3>
-                                <h5 class="to-fade"><span class="stati18n s18n-internship"></span> - <span class="stati18n s18n-job-internship"></span></h5>
+                                <h5 class="to-fade"><span class="i18n" i18n-key="internship"></span> - <span class="i18n" i18n-key="job-internship"></span></h5>
                                 <p class="to-fade">
                                     Clermont-Ferrand, France
                                 </p>
                                 <p class="to-fade">
-                                    <i class="stati18n s18n-april"> 2011</i> - <i class="stati18n s18n-january"> 2011</i>
+                                    <i class="i18n" i18n-key="april"> 2011</i> - <i class="i18n" i18n-key="january"> 2011</i>
                                 </p>
                             </header>
                             <p>
@@ -282,46 +281,7 @@
                                 Pr Alain Chamoux (Chef du Service).
                                 Ce stage visait l'amélioration et la migration d'une application
                                 existante, celle-ci en développement depuis plusieurs années était codée en Delphi.
-                                La nouvelle application devait a été réalisé en Java et elle fût renommé <em>Lac 2011</em>.
-                            </p>
-                            <p>
-                                Afin de réaliser ce projet, j'ai utilisé un langage de programmation
-                                orienté objet : <em>le Java</em>. J'ai utilisé <em>Eclipse</em> comme environnement
-                                de développement et je me suis aussi servis d’un outil, notamment présent dans Eclipse,
-                                permettant de générer la JavaDoc, et ainsi transmettre une documentation programmeur
-                                afin d'assurer au maximum le suivi du projet.
-                            </p>
-                            <p>
-                                La deuxième étape consistait à réaliser l'analyse du projet,
-                                j'ai utilisé la méthode <em>U.M.L.</em> (Unified Modeling Language),
-                                cette analyse à aboutis au Modèle Logique de Données et au Diagramme de Cas d'Utilisation.
-                            </p>
-                            <p>
-                                Lors du codage de l'application, j'ai pu utiliser quelques API intéressante.
-                                Deux de mes missions que je vais détailler étaient :
-                            </p>
-                            <ul>
-                                <li>Transfert de données infra-rouge entre une montre <em>Polar</em> et Lac.</li>
-                                <li>Génération de graphiques en fonction des données</li>
-                            </ul>
-                            <br/>
-                            <p>
-                                Pour le transfert de données infra-rouge depuis un cardio-fréquencemètre <em>Polar</em>
-                                la marque suédoise fournissait une DLL codé en C. En Java, il est impossible d’utiliser
-                                directement une Bibliothèque logicielle codé dans un autre langage, mais Java dispose
-                                de nombreux outils pour aider les développeurs. J'ai opté pour JNA une implémentation de JNI. Cette librairie permet
-                                également d’appeler des fonctions natives (codés dans un langage différents de Java),
-                                cet outil est très répandu chez les développeurs, ce qui un gage de qualité et d’accessibilité.
-                                
-                            </p>
-                            <p>
-                                Pour la génération de graphiques, j'ai opté pour la librairie <em>JFreeChart</em>.
-                                Cette librairie est sans doute, dans le monde Java, l'outil de génération de
-                                graphiques le plus connu et le plus réputé, pour diverses raisons.
-                                JFreeChart compte aujourd’hui plus de milles classes dédiées à la réalisation
-                                de  différents graphiques. Cette Bibliothèque logicielle m'a beaucoup aidés
-                                lors de la programmation de l’application. En effet, c’est cet outil qui m'a
-                                permis de créer les différents graphiques présents dans l’application (courbe, histogramme, camembert).
+                                La nouvelle application devait a été réalisé en Java et elle fût renommé <em>Lac 2011</em>...
                             </p>
                             <p class="key-words to-fade">
                                 <i> UML, Java, Polar, JFreeChart, JNA, Reporting, Windows, Mac</i>
@@ -329,8 +289,6 @@
                         </div>
                     </article>
                     <div class="col-md-4">
-                        <img src="resources/images/profile.png" alt="test" />
-                        <img src="resources/images/profile.png" alt="test" />
                         <img src="resources/images/profile.png" alt="test" />
                     </div>
                 </div>
@@ -340,7 +298,7 @@
         <section id="page-contact" class="page-contact">
             <div class="container">
                 <header class="section-header">
-                    <h2 class="section-title"><span class="stati18n s18n-contact-title"></span></h2>
+                    <h2 class="section-title"><span class="i18n" i18n-key="contact-title"></span></h2>
                     <div class="spacer to-fade"></div>
                 </header>
                 <div class="row">
@@ -362,15 +320,15 @@
                                 </div>
                             </div>
                             <div class="form-actions">
-                                <button type="submit" class="btn btn-default btn-lg btn-block send"><span class="stati18n s18n-send"></span></button>
+                                <button type="submit" class="btn btn-default btn-lg btn-block send"><span class="i18n" i18n-key="send"></span></button>
                             </div>
                         </form>
                     </div>
                     <div class="col-sm-5 contact-info">
-                        <h3><span class="stati18n s18n-contact-info"></span></h3>
-                        <p><a href="https://www.linkedin.com/pub/thomas-marques/85/520/961"><i class="fa fa-linkedin-square"></i> <span class="stati18n s18n-add-me"></span> <span class="to-fade" >Linkedin</span></a></p>
-                        <p><a href="https://github.com/ThomasMarques"><i class="fa fa-github-square"></i> <span class="stati18n s18n-follow-me"></span> <span class="to-fade" >Github</span></a></p>
-                        <p><a href="mailto:marquesthom@gmail.com"><i class="fa fa-envelope"></i> <span class="stati18n s18n-contact-me"></span> <span class="to-fade" >marquesthom@gmail.com</span></a></p>
+                        <h3><span class="i18n" i18n-key="contact-info"></span></h3>
+                        <p><a href="https://www.linkedin.com/pub/thomas-marques/85/520/961"><i class="fa fa-linkedin-square"></i> <span class="i18n" i18n-key="add-me"></span> <span class="to-fade" >Linkedin</span></a></p>
+                        <p><a href="https://github.com/ThomasMarques"><i class="fa fa-github-square"></i> <span class="i18n" i18n-key="follow-me"></span> <span class="to-fade" >Github</span></a></p>
+                        <p><a href="mailto:marquesthom@gmail.com"><i class="fa fa-envelope"></i> <span class="i18n" i18n-key="contact-me"></span> <span class="to-fade" >marquesthom@gmail.com</span></a></p>
                     </div>
 
                 </div>
@@ -381,7 +339,7 @@
                 <hr>
                 <div class="row">   
                     <div class="col-md-12">
-                        <p><a href="https://github.com/ThomasMarques/thomasmarques.github.io" target="_blank">Thomas Marques <span class="copy">©</span> 2014</a> - internationalization based on <a href="https://github.com/k-yak/stati18n" target="_blank">stati18n</a></p>
+                        <p><a href="https://github.com/ThomasMarques/thomasmarques.github.io" target="_blank">Thomas Marques <span class="copy">©</span> 2014 - Fork me on github</a></p>
                     </div>
                 </div>
             </div>
@@ -391,7 +349,7 @@
         <script src="resources/js/jquery.scrollTo.js"></script>
         <script src="resources/js/jquery.nav.js"></script>
         <script src="resources/js/bootstrap.min.js"></script>
-        <script src="resources/i18n/stati18n.min.js"></script>
+        <script src="resources/i18n/i18n.min.js"></script>
         <script src="resources/js/main.js"></script>
     </body>
 </html>

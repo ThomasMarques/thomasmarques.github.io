@@ -138,25 +138,25 @@ h1,h2,h3,h4,h5,h6 {
     cursor: pointer;
 }
 
-.language-selector li a.french, .language-selector li a.french.off:hover {
+.language-selector li a.french-flag, .language-selector li a.french-flag.off:hover {
     position: fixed;
     right: 20px;
     top: 15px;
     background: url(../images/langage-flags.png) no-repeat 0px 0px;
 }
 
-.language-selector li a.english, .language-selector li a.english.off:hover{
+.language-selector li a.english-flag, .language-selector li a.english-flag.off:hover{
     position: fixed;
     right: 56px;
     top: 15px;
     background: url(../images/langage-flags.png) no-repeat -28px 0px;
 }
 
-.language-selector li a.french.off {
+.language-selector li a.french-flag.off {
     background: url(../images/langage-flags.png) no-repeat 0px -22px;
 }
 
-.language-selector li a.english.off {
+.language-selector li a.english-flag.off {
     background: url(../images/langage-flags.png) no-repeat -28px -22px;
 }
 
