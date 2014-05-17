@@ -15,13 +15,12 @@ $(document).ready(function () {
     })
 });
 
-function changeProjectShow(projectName) {
-    if(projectName == '') {
-        $("#page-projects .row").addClass("hidden");
-        $("#page-projects .row.projects-links").removeClass("hidden");
-    }
-    else {
-        $("#page-projects .row.projects-" + projectName).removeClass("hidden");
-        $("#page-projects .row.projects-links").addClass("hidden");
-    }
+function changProject(projectName) {
+    $("#page-projects .row .projects").addClass("fade-out-left");
+    $("#page-projects .projects-desc .col-md-12."+projectName).removeClass("hidden");
+}
+
+function hideProject() {
+    $("#page-projects .row .projects").removeClass("fade-out-left");
+    $("#page-projects .projects-desc .col-md-12").addClass("hidden");
 }

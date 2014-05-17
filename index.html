@@ -251,46 +251,118 @@
 
         <section id="page-projects" class="page-projects">
             <div class="container">
-
                 <header class="section-header">
                     <h2 class="section-title i18n" i18n-key="project-menu">Projects</h2>
                     <h3 class="section-title" >(in progress)</h3>
                     <div class="spacer to-fade"></div>
                 </header>
-                <div class="row projects-links">
-                    <a onclick="changeProjectShow('lac')">View lac project</a>
+                <div class="row">
+                    <div class="projects">
+                        <!-- ------- LAC PROJECT ------- -->
+                        <div class="cube col-md-3 lac" >
+                            <a onclick="changProject('lac')" class="in-cube">
+                                <div>
+                                    <h3>TITLE OF THE PROJECT</h3>
+                                    <div class="spacer to-fade"></div>
+                                    <h5>key-words</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- ------- STUB PROJECT ------- -->
+                        <div class="cube col-md-3" >
+                            <a onclick="changProject('')" class="in-cube">
+                                <div>
+                                    <h3>TITLE</h3>
+                                    <div class="spacer to-fade"></div>
+                                    <h5>key-words</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- ------- STUB PROJECT ------- -->
+                        <div class="cube col-md-3" >
+                            <a onclick="changProject('')" class="in-cube">
+                                <div>
+                                    <h3>TITLE</h3>
+                                    <div class="spacer to-fade"></div>
+                                    <h5>key-words</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- ------- STUB PROJECT ------- -->
+                        <div class="cube col-md-3" >
+                            <a onclick="changProject('')" class="in-cube">
+                                <div>
+                                    <h3>TITLE</h3>
+                                    <div class="spacer to-fade"></div>
+                                    <h5>key-words</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- ------- STUB PROJECT ------- -->
+                        <div class="cube col-md-3" >
+                            <a onclick="changProject('')" class="in-cube">
+                                <div>
+                                    <h3>TITLE</h3>
+                                    <div class="spacer to-fade"></div>
+                                    <h5>key-words</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- ------- STUB PROJECT ------- -->
+                        <div class="cube col-md-3" >
+                            <a onclick="changProject('')" class="in-cube">
+                                <div>
+                                    <h3>TITLE</h3>
+                                    <div class="spacer to-fade"></div>
+                                    <h5>key-words</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- ------- STUB PROJECT ------- -->
+                        <div class="cube col-md-3" >
+                            <a onclick="changProject('')" class="in-cube">
+                                <div>
+                                    <h3>TITLE</h3>
+                                    <div class="spacer to-fade"></div>
+                                    <h5>key-words</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- ------- STUB PROJECT ------- -->
+                        <div class="cube col-md-3" >
+                            <a onclick="changProject('')" class="in-cube">
+                                <div>
+                                    <h3>TITLE</h3>
+                                    <div class="spacer to-fade"></div>
+                                    <h5>key-words</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="row projects-lac hidden">
-                    <div class="col-md-8">
-                        <a onclick="changeProjectShow('')">Hide lac project</a>
-                        <article class="projects">
-                            <header>
-                                <h3 class="to-fade">Institut de Médecine du Travail</h3>
-                                <h5 class="to-fade"><span class="i18n" i18n-key="internship">Internship</span> - <span class="i18n" i18n-key="job-internship">Java developer</span></h5>
-                                <p class="to-fade">
-                                    Clermont-Ferrand, France
-                                </p>
-                                <p class="to-fade">
-                                    <i class="i18n" i18n-key="april"> 2011</i> - <i class="i18n" i18n-key="january"> 2011</i>
-                                </p>
-                            </header>
-                            <p>
-                                Dans le cadre de mes études à l’IUT de Clermont-Ferrand,
-                                j'ai effectué un stage de dix semaines à l'Institut d’Hygiène
-                                Industrielle de Médecine du Travail et d’Ergonomie sous la tutelle
-                                du M. Gil Boudet (Docteur en physiologie (PhD), Ergonome) et du
-                                Pr Alain Chamoux (Chef du Service).
-                                Ce stage visait l'amélioration et la migration d'une application
-                                existante, celle-ci en développement depuis plusieurs années était codée en Delphi.
-                                La nouvelle application devait a été réalisé en Java et elle fût renommé <em>Lac 2011</em>...
-                            </p>
-                            <p class="key-words to-fade">
-                                <i> UML, Java, Polar, JFreeChart, JNA, Reporting, Windows, Mac</i>
-                            </p>
-                        </article></div>
-
-                    <div class="col-md-4">
-                        <img src="resources/images/profile.png" alt="test" />
+                <div class="row projects-desc" >
+                    <!-- --------------------------- -->
+                    <!-- --------------------------- -->
+                    <!-- ------- LAC PROJECT ------- -->
+                    <!-- --------------------------- -->
+                    <!-- --------------------------- -->
+                    <div class="col-md-12 lac hidden" >
+                        <a onclick="hideProject()">hideProject</a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu ligula lacus. Ut euismod consequat tempus. Duis quis orci sed metus convallis sollicitudin luctus non nulla. Praesent gravida tortor sagittis molestie posuere. Nunc eu arcu ut arcu ornare faucibus sed eu enim. Duis at quam augue. Curabitur consequat bibendum faucibus. Nunc mollis felis a justo porttitor, non luctus massa fringilla. Morbi elementum facilisis neque, sit amet imperdiet est ornare eget. Aliquam posuere, orci semper porttitor lacinia, neque urna commodo nisi, nec egestas sem justo nec augue. Mauris mattis justo ut ante eleifend, ut suscipit lacus malesuada. Nunc molestie et tortor posuere tincidunt.
+                        </p>
+                        <p>
+                            Sed id libero a nisi vulputate tincidunt in sed lorem. Nulla facilisi. Quisque auctor aliquet nulla ac iaculis. Morbi convallis quam eu dictum interdum. Ut euismod risus vel quam condimentum tempus. Mauris convallis cursus nibh, non tincidunt ante accumsan in. Maecenas vulputate urna nisi. Maecenas in nibh urna. Donec quis consectetur ante, non fermentum enim. Proin quis lacus lectus. Fusce placerat, mauris a accumsan hendrerit, ligula ipsum vehicula nibh, ut auctor sapien diam eget urna. Fusce mauris dolor, interdum non consectetur ut, placerat nec nulla. In lobortis, nisi quis congue suscipit, sapien libero lobortis diam, eu lobortis eros augue nec urna. Aenean non dui at nisl euismod interdum nec id urna. Donec at pretium mauris.
+                        </p>
+                        <p>
+                            Donec pulvinar iaculis ultricies. Donec mattis aliquam tellus. Morbi neque eros, feugiat sed ante eu, scelerisque gravida mi. Sed nisl enim, vehicula id faucibus at, ornare a justo. Etiam convallis tincidunt libero vitae sodales. Quisque in dui vitae augue condimentum semper. Integer condimentum libero eros, eu malesuada felis elementum in. Praesent mollis luctus quam quis malesuada. Mauris aliquam accumsan turpis, eu auctor risus imperdiet nec. Aenean sagittis, ante eget tempus pulvinar, mauris justo condimentum turpis, eget faucibus magna nisi a velit. Vestibulum porta consectetur egestas.
+                        </p>
+                        <p>
+                            Integer malesuada semper sagittis. Aenean pharetra, risus at blandit pharetra, ligula neque elementum ante, eu placerat ligula tortor vitae elit. Pellentesque in scelerisque dui. Mauris blandit arcu quis massa ullamcorper pretium. Integer vel neque fringilla, euismod libero nec, luctus odio. Proin blandit, mauris sed commodo semper, tortor velit placerat velit, vitae accumsan ipsum mi sed massa. Curabitur dapibus leo eu ullamcorper hendrerit. Donec tortor libero, laoreet sed auctor a, laoreet vel urna. Phasellus quis diam in erat feugiat vestibulum. Proin eget dui suscipit, bibendum nisi eget, pretium massa.
+                        </p>
+                        <p>
+                            Nulla sit amet adipiscing felis. Ut vitae nisl ut massa tincidunt vestibulum ut ac nisi. Pellentesque non magna metus. Donec lobortis velit in pretium tincidunt. Suspendisse gravida rutrum nunc eu consectetur. Suspendisse molestie eros eget dolor sodales pulvinar. Phasellus vel nulla quis diam pharetra dignissim. Vivamus vitae gravida metus. Vivamus sed condimentum nibh. Nunc eu nunc suscipit, varius massa quis, lobortis sem. Ut velit massa, dignissim sit amet massa ac, elementum faucibus dui. Nulla facilisis vehicula tellus ut semper. In ut orci nec lorem interdum sollicitudin vel et mi. Maecenas molestie facilisis lorem.
+                        </p>
                     </div>
                 </div>
             </div>
