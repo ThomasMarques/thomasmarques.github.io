@@ -18,11 +18,17 @@ $(document).ready(function () {
 function changProject(projectName) {
     $("#page-projects .row .projects-title").addClass("fade-out-left");
     $("#page-projects .row .projects.fake-row").addClass("hidden");
-    $("#page-projects .projects-desc .col-md-12."+projectName).removeClass("hidden");
+    $("#page-projects .projects-desc ."+projectName).removeClass("hidden");
+    setTimeout(function() {
+        $("#page-projects .projects-desc ."+projectName).removeClass("chidden");
+    }, 800);
 }
 
-function hideProject() {
-    $("#page-projects .row .projects-title").removeClass("fade-out-left");
-    $("#page-projects .row .projects.fake-row").removeClass("hidden");
-    $("#page-projects .projects-desc .col-md-12").addClass("hidden");
+function hideProject(projectName) {
+    $("#page-projects .projects-desc ."+projectName).addClass("chidden");
+    setTimeout(function() {
+        $("#page-projects .row .projects-title").removeClass("fade-out-left");
+        $("#page-projects .row .projects.fake-row").removeClass("hidden");
+        $("#page-projects .projects-desc ."+projectName).addClass("hidden");
+    }, 800);
 }

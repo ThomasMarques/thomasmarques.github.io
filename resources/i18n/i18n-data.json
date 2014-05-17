@@ -23,9 +23,9 @@
         "IT-degree": "Diplôme universitaire en infortique",
         "IT-degree-description": "Le département informatique de Clermont-Ferrand a une très longue expérience dans la formation aux métiers de l'informatique. Les enseignements (notamment assurés par des professionnels) portent sur l'informatique d'aujourd'hui qui garantit une bonne insertion professionnelle, mais aussi sur celle de demain qui offre de belles perspectives de poursuites d’études.",
         "experience-title": "Expérience",
-        "april' insertion='before": "avr.",
-        "january' insertion='before": "jan.",
-        "september' insertion='before": "sep.",
+        "april": "avr.",
+        "january": "jan.",
+        "september": "sep.",
         "sandwich-course": "Alternance",
         "internship": "Stage",
         "job-designation": "Analyste programmeur",
@@ -40,8 +40,15 @@
         "add-me": "Ajoutez moi ",
         "follow-me": "Suivez moi sur ",
         "contact-info": "Autre moyen de me contacter",
-        "key-words": "Mots clés :"
+        "key-words": "Mots clés :",
+        "go-back": "Retour",
+        "date": "Date : ",
+        "place": "Place :"
     },
+    
+    
+    
+    
     {
         "lang": "en",
         "home-menu": "Home",
@@ -65,9 +72,9 @@
         "IT-degree": "Technical University Degree in IT Science",
         "IT-degree-description": "The IT department of Clermont-Ferrand has a very long experience in training for careers in computer science. The teachings (some provided by professionals) focus on computing today which ensures good professional integration but also on the future which offers good prospects for further studies.",
         "experience-title": "Experience",
-        "april' insertion='before": "apr.",
-        "january' insertion='before": "jan",
-        "september' insertion='before": "sep.",
+        "april": "apr.",
+        "january": "jan.",
+        "september": "sep.",
         "sandwich-course": "Sandwich course",
         "internship": "Internship",
         "job-designation": "Analyst programmer",
@@ -82,7 +89,11 @@
         "add-me": "Add me ",
         "follow-me": "Follow me on ",
         "contact-info": "Other way to contact me",
-        "key-words": "Key words"
+        "key-words": "Key words",
+        "go-back": "Go back",
+        "date": "Date: ",
+        "place": "Place:"
+        
     }
 ]
 
