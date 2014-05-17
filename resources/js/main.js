@@ -16,11 +16,13 @@ $(document).ready(function () {
 });
 
 function changProject(projectName) {
-    $("#page-projects .row .projects").addClass("fade-out-left");
+    $("#page-projects .row .projects-title").addClass("fade-out-left");
+    $("#page-projects .row .projects.fake-row").addClass("hidden");
     $("#page-projects .projects-desc .col-md-12."+projectName).removeClass("hidden");
 }
 
 function hideProject() {
-    $("#page-projects .row .projects").removeClass("fade-out-left");
+    $("#page-projects .row .projects-title").removeClass("fade-out-left");
+    $("#page-projects .row .projects.fake-row").removeClass("hidden");
     $("#page-projects .projects-desc .col-md-12").addClass("hidden");
 }
