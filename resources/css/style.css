@@ -78,11 +78,6 @@ p {
     color:#fff;
 }
 
-.btn.btn-default:hover,
-.btn.btn-default:active{
-    color:#e74c3c;
-}
-
 h1,h2,h3,h4,h5,h6 {
     font-family:Oxygen,sans-serif;
     font-weight:700;
@@ -273,7 +268,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .btn.btn-default:active,.btn.btn-default:hover {
     background:#fff;
-    color:fff;
+    color:#e74c3c;
     border-color:#fff;
 }
 
