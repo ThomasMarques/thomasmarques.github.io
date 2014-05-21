@@ -12,23 +12,50 @@ $(document).ready(function () {
         scrollSpeed: 750,
         filter: "",
         easing: "swing"
-    })
+    }), $(document).ready(function() { // Magnific popup
+        $('.magnific-popup').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            closeOnContentClick: false,
+            closeBtnInside: false,
+            mainClass: 'mfp-with-zoom mfp-img-mobile',
+            removalDelay: 300,
+            image: {
+                verticalFit: true
+            },
+            gallery: {
+                enabled: true
+            },
+            zoom: {
+                enabled: true,
+                duration: 300, // don't foget to change the duration also in CSS
+                opener: function(element) {
+                    return element.find('img');
+                }
+            }
+
+        });
+    });
 });
 
 function changProject(projectName) {
     $("#page-projects .row .projects-title").addClass("fade-out-left");
-    $("#page-projects .row .projects.fake-row").addClass("hidden");
-    $("#page-projects .projects-desc ."+projectName).removeClass("hidden");
     setTimeout(function() {
-        $("#page-projects .projects-desc ."+projectName).removeClass("chidden");
+        $("#page-projects .row .projects-title").addClass("hidden");
+        $("#page-projects .projects-desc ."+projectName).removeClass("hidden");
+        setTimeout(function() {
+            $("#page-projects .projects-desc ."+projectName).removeClass("chidden");
+        }, 10);
     }, 800);
 }
 
 function hideProject(projectName) {
     $("#page-projects .projects-desc ."+projectName).addClass("chidden");
     setTimeout(function() {
-        $("#page-projects .row .projects-title").removeClass("fade-out-left");
-        $("#page-projects .row .projects.fake-row").removeClass("hidden");
         $("#page-projects .projects-desc ."+projectName).addClass("hidden");
+        $("#page-projects .row .projects-title").removeClass("hidden");
+        setTimeout(function() {
+            $("#page-projects .row .projects-title").removeClass("fade-out-left");
+        }, 10);
     }, 800);
 }

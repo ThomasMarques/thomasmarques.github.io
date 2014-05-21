@@ -11,6 +11,7 @@
         <link href="resources/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
         <link href="resources/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="resources/css/font-face.css" rel="stylesheet" type="text/css">
+        <link href="resources/css/magnific-popup.min.css" rel="stylesheet" type="text/css">
         <link href="resources/css/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
@@ -252,90 +253,72 @@
             <div class="container">
                 <header class="section-header">
                     <h2 class="section-title i18n" i18n-key="project-menu">Projects</h2>
-                    <h3 class="section-title" >(in progress)</h3>
                     <div class="spacer to-fade"></div>
                 </header>
                 <div class="row">
-                    <div class="projects fake-row"><div class="cube col-md-12"><a class="in-cube"><div><h3>.</h3><div class="spacer to-fade"></div><h5>.</h5></div></a></div><div class="col-md-12 cube"><a class="in-cube"><div><h3>.</h3><div class="spacer to-fade"></div><h5>.</h5></div></a></div></div>
                     <div class="projects projects-title">
-                        <!-- ------- LAC PROJECT ------- -->
-                        <div class="cube lac" >
-                            <a onclick="changProject('lac')" class="in-cube">
-                                <div>
-                                    <h3>Lorem ipsum</h3>
-                                    <div class="spacer to-fade"></div>
-                                    <h5>key-words</h5>
-                                </div>
+                        <!-- ------- HOTSPOTMAP PROJECT ------- -->
+                        <div class="cube hotspotmap col-md-3">
+                            <a onclick="changProject('hotspotmap')">
+                                <img src="resources/images/hotspotmap-add-small.png" alt="hotspotmap" />
+                                <h4>HotspotMap</h4>
+                                <h5>PHP, Silex, AngularJS, REST API, JavaScript, Bootstrap</h5>
+                            </a>
+                        </div>
+                        <!-- ------- EASY DRIVE PROJECT ------- -->
+                        <div class="cube easydrive col-md-3">
+                            <a onclick="changProject('easydrive')">
+                                <img src="resources/images/easydrive-push-server-small.png" alt="easydrive" />
+                                <h4>EasyDrive</h4>
+                                <h5>Java EE, JSF, EJB, Tomee, Maven, PrimeFaces, Cloud</h5>
                             </a>
                         </div>
                         <!-- ------- STUB PROJECT ------- -->
-                        <div class="cube" >
-                            <a onclick="changProject('')" class="in-cube">
-                                <div>
-                                    <h3>Lorem ipsum</h3>
-                                    <div class="spacer to-fade"></div>
-                                    <h5>key-words</h5>
-                                </div>
+                        <div class="cube easydrive col-md-3">
+                            <a onclick="changProject('easydrive')">
+                                <img src="resources/images/hotspotmap-add-small.png" alt="lorem" />
+                                <h4>Lorem ipsum</h4>
+                                <h5>key-words, key-words, key-words, and key-words again</h5>
                             </a>
                         </div>
                         <!-- ------- STUB PROJECT ------- -->
-                        <div class="cube" >
-                            <a onclick="changProject('')" class="in-cube">
-                                <div>
-                                    <h3>Lorem ipsum</h3>
-                                    <div class="spacer to-fade"></div>
-                                    <h5>key-words</h5>
-                                </div>
+                        <div class="cube easydrive col-md-3">
+                            <a onclick="changProject('easydrive')">
+                                <img src="resources/images/hotspotmap-add-small.png" alt="easydrive" />
+                                <h4>Lorem ipsum</h4>
+                                <h5>key-words, key-words, key-words, and key-words again</h5>
                             </a>
                         </div>
                         <!-- ------- STUB PROJECT ------- -->
-                        <div class="cube" >
-                            <a onclick="changProject('')" class="in-cube">
-                                <div>
-                                    <h3>Lorem ipsum</h3>
-                                    <div class="spacer to-fade"></div>
-                                    <h5>key-words</h5>
-                                </div>
+                        <div class="cube easydrive col-md-3">
+                            <a onclick="changProject('easydrive')">
+                                <img src="resources/images/hotspotmap-add-small.png" alt="easydrive" />
+                                <h4>Lorem ipsum</h4>
+                                <h5>key-words, key-words, key-words, and key-words again</h5>
                             </a>
                         </div>
                         <!-- ------- STUB PROJECT ------- -->
-                        <div class="cube" >
-                            <a onclick="changProject('')" class="in-cube">
-                                <div>
-                                    <h3>Lorem ipsum</h3>
-                                    <div class="spacer to-fade"></div>
-                                    <h5>key-words</h5>
-                                </div>
+                        <div class="cube easydrive col-md-3">
+                            <a onclick="changProject('easydrive')">
+                                <img src="resources/images/hotspotmap-add-small.png" alt="easydrive" />
+                                <h4>Lorem ipsum</h4>
+                                <h5>key-words, key-words, key-words, and key-words again</h5>
                             </a>
                         </div>
                         <!-- ------- STUB PROJECT ------- -->
-                        <div class="cube" >
-                            <a onclick="changProject('')" class="in-cube">
-                                <div>
-                                    <h3>Lorem ipsum</h3>
-                                    <div class="spacer to-fade"></div>
-                                    <h5>key-words</h5>
-                                </div>
+                        <div class="cube easydrive col-md-3">
+                            <a onclick="changProject('easydrive')">
+                                <img src="resources/images/hotspotmap-add-small.png" alt="easydrive" />
+                                <h4>Lorem ipsum</h4>
+                                <h5>key-words, key-words, key-words, and key-words again</h5>
                             </a>
                         </div>
                         <!-- ------- STUB PROJECT ------- -->
-                        <div class="cube" >
-                            <a onclick="changProject('')" class="in-cube">
-                                <div>
-                                    <h3>Lorem ipsum</h3>
-                                    <div class="spacer to-fade"></div>
-                                    <h5>key-words</h5>
-                                </div>
-                            </a>
-                        </div>
-                        <!-- ------- STUB PROJECT ------- -->
-                        <div class="cube" >
-                            <a onclick="changProject('')" class="in-cube">
-                                <div>
-                                    <h3>Lorem ipsum</h3>
-                                    <div class="spacer to-fade"></div>
-                                    <h5>key-words</h5>
-                                </div>
+                        <div class="cube easydrive col-md-3">
+                            <a onclick="changProject('easydrive')">
+                                <img src="resources/images/hotspotmap-add-small.png" alt="easydrive" />
+                                <h4>Lorem ipsum</h4>
+                                <h5>key-words, key-words, key-words, and key-words again</h5>
                             </a>
                         </div>
                     </div>
@@ -343,35 +326,45 @@
                 <div class="row projects-desc" >
                     <!-- --------------------------- -->
                     <!-- --------------------------- -->
-                    <!-- ------- LAC PROJECT ------- -->
+                    <!-- ---- HOTSPOTMAP PROJECT --- -->
                     <!-- --------------------------- -->
                     <!-- --------------------------- -->
-                    <div class="lac chidden hidden" >
-                        <div class="col-md-4">
-                            <img src="resources/images/java-logo.png" alt="test" />
+                    <div class="hotspotmap chidden hidden" >
+                        <div class="col-md-4 magnific-popup">
+                            <a href="resources/images/hotspotmap-home.png">
+                                <img src="resources/images/hotspotmap-home-small.png" alt="hotspotmap-home-small.png" />
+                            </a>
+                            <hr/>
+                            <a href="resources/images/hotspotmap-add.png">
+                                <img src="resources/images/hotspotmap-add-small.png" alt="hotspotmap-add-small.png" />
+                            </a>
                         </div>
                         <div class="col-md-8">
-                            <h3>Lorem ipsum dolor</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu ligula lacus. Ut euismod consequat tempus. Duis quis orci sed metus convallis sollicitudin luctus non nulla. Praesent gravida tortor sagittis molestie posuere. Nunc eu arcu ut arcu ornare faucibus sed eu enim. Duis at quam augue. Curabitur consequat bibendum faucibus. Nunc mollis felis a justo porttitor, non luctus massa fringilla. Morbi elementum facilisis neque, sit amet imperdiet est ornare eget. Aliquam posuere, orci semper porttitor lacinia, neque urna commodo nisi, nec egestas sem justo nec augue. Mauris mattis justo ut ante eleifend, ut suscipit lacus malesuada. Nunc molestie et tortor posuere tincidunt.
-                            </p>
-                            <p>
-                                Sed id libero a nisi vulputate tincidunt in sed lorem. Nulla facilisi. Quisque auctor aliquet nulla ac iaculis. Morbi convallis quam eu dictum interdum. Ut euismod risus vel quam condimentum tempus. Mauris convallis cursus nibh, non tincidunt ante accumsan in. Maecenas vulputate urna nisi. Maecenas in nibh urna. Donec quis consectetur ante, non fermentum enim. Proin quis lacus lectus. Fusce placerat, mauris a accumsan hendrerit, ligula ipsum vehicula nibh, ut auctor sapien diam eget urna. Fusce mauris dolor, interdum non consectetur ut, placerat nec nulla. In lobortis, nisi quis congue suscipit, sapien libero lobortis diam, eu lobortis eros augue nec urna. Aenean non dui at nisl euismod interdum nec id urna. Donec at pretium mauris.
-                            </p>
-                            <p class="project-info">
-                                <span class="i18n dark" i18n-key="date">Date:</span>
-                                <span class="i18n" i18n-key="apr.">april</span> <span class="to-fade">2011 -</span> <span class="i18n" i18n-key="january">jan.</span> <span class="to-fade">2011</span>
-                            </p>
-                            <p class="project-info">
-                                <span class="i18n dark" i18n-key="place">Place:</span>
-                                Clermont-Ferrand, France
-                            </p>
-                            <a onclick="hideProject('lac')" class="btn btn-default goback to-fade">
-                                <i class="fa fa-long-arrow-left"></i>
-                                <span class="i18n" i18n-key="go-back">
-                                    Go back
-                                </span>
-                            </a>
+                            <h3>HotspotMap</h3>
+                            <p class="i18n" i18n-key="hotspotmap-first-desc"></p>
+                            <p class="i18n" i18n-key="hotspotmap-second-desc"></p>
+                            <div class="project-infos">
+                                <p class="project-info">
+                                    <span class="i18n dark" i18n-key="date"></span>
+                                    <span class="to-fade">mar. 2014</span>
+                                </p>
+                                <p class="project-info">
+                                    <span class="i18n dark" i18n-key="place"></span>
+                                    <span class="to-fade">ISIMA, Clermont-Ferrand, France</span>
+                                </p>
+                                <p class="project-info">
+                                    <span class="i18n dark" i18n-key="authors"></span>
+                                    <a class="to-fade" href="https://github.com/Aleanar" target="_blank">Alexandre Mottet</a> <span class="i18n" i18n-key="and"></span> <a class="to-fade" href="https://github.com/ThomasMarques" target="_blank">Thomas Marques</a>
+                                </p>
+                                <p class="project-info">
+                                    <span class="i18n dark" i18n-key="sources"></span>
+                                    <a class="to-fade" href="https://github.com/ThomasMarques/HotspotMap" target="_blank" >https://github.com/ThomasMarques/HotspotMap</a>
+                                </p>
+                                <a onclick="hideProject('hotspotmap')" class="btn btn-default goback to-fade">
+                                    <i class="fa fa-long-arrow-left"></i>
+                                    <span class="i18n" i18n-key="go-back"></span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -430,10 +423,11 @@
         </footer>
 
         <script src="resources/js/jquery-1.11.0.min.js"></script>
-        <script src="resources/js/jquery.scrollTo.js"></script>
-        <script src="resources/js/jquery.nav.js"></script>
+        <script src="resources/js/jquery.scrollTo.min.js"></script>
+        <script src="resources/js/jquery.nav.min.js"></script>
         <script src="resources/js/bootstrap.min.js"></script>
         <script src="resources/i18n/i18n.min.js"></script>
+        <script src="resources/js/jquery.magnific-popup.min.js"></script> 
         <script src="resources/js/main.js"></script>
 
     </body>
