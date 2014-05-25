@@ -344,7 +344,6 @@ h1,h2,h3,h4,h5,h6 {
     padding: 75px 0 20px 0;
     background: #3498db; 
     width:100%;
-    min-height: -webkit-calc(100% - 57px);
     min-height: calc(100% - 57px);
     overflow:hidden;
 }
@@ -482,7 +481,6 @@ h1,h2,h3,h4,h5,h6 {
 #page-projects .magnific-popup a img {
     margin: 35px 20px 55px 20px;
     display: block;
-    width: -webkit-calc(100% - 40px);
     width: calc(100% - 40px);
     -webkit-transition: 0.2s all ease;
     transition: 0.2s all ease;
@@ -535,10 +533,10 @@ h1,h2,h3,h4,h5,h6 {
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 100%;
+    height: calc(100% + 1px);
     width: 100%;
     text-align: center;
-    background-color: #3498db;
+    background-color: rgba(52, 152, 219, 0.7);
     font-size: 400%;
     color: #fff;
     -webkit-transition: all .25s ease-in-out;
@@ -550,8 +548,8 @@ h1,h2,h3,h4,h5,h6 {
 
 #page-projects .projects.projects-title .cube .link-img:hover .search-icon {
     font-size: 150%;
-    opacity: 0.8;
-    filter: alpha(opacity = 80);
+    opacity: 1;
+    filter: alpha(opacity = 100);
 }
 
 #page-projects .projects.projects-title .cube .search-icon span {
@@ -569,6 +567,7 @@ h1,h2,h3,h4,h5,h6 {
 #page-projects .projects.projects-title .cube .infos {
     padding: 25px 25px 25px 25px;
     text-align: center;
+    border-top: 1px solid #e6e9ed;
 }
 
 #page-projects .projects.projects-title .cube .infos h4 {
