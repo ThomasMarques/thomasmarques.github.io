@@ -458,6 +458,17 @@ h1,h2,h3,h4,h5,h6 {
     margin-top: 0px;
 }
 
+#page-contact .control-group {
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+}
+
+#page-contact .control-group .novalidate {
+    border: 1px solid #f05557;
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(240, 85, 87, 0.5);
+}
+
 #page-experience .logo-techno {
     margin-top: -50px;
     width: 100%;

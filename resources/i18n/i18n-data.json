@@ -47,6 +47,9 @@
         "authors": "Auteurs :",
         "and": "et",
         "sources": "Sources :",
+        "mail-sending": "Envoi de l'email...",
+        "mail-fail": "Echec de l'envoi",
+        "mail-success": "Mail envoyé avec succès",
         "hotspotmap-first-desc": "HotspotMap est une application qui permet de référencer des Hotspots pour les développeurs. Le but est de trouver la meilleure place pour travailler quand vous êtes loin de votre lieu de travail ou de chez vous. Ce projet nous a été donné par l'intervenant qui enseigne le PHP à l'<a href='http://isima.fr' target='blank'>ISIMA</a>, <a href='https://github.com/willdurand' target='blank'>William Durand</a>. Comme nous devions réalisé une API REST, nous avons opté pour le micro-framework nommé Silex. L'API développée est de niveau 3 sur le <a href='http://martinfowler.com/articles/richardsonMaturityModel.html#level3' target='blank'>modèle de maturité de Richardson</a> grâce aux bibliothèques <a href='https://github.com/willdurand/Negotiation'target='blank'>Negociation</a> et <a href='https://github.com/willdurand/Hateoas'target='blank'>Hateoas</a>.",
         "hotspotmap-second-desc": "IN PROGRESS"
     },
@@ -101,6 +104,9 @@
         "authors": "Authors", 
         "and": "and",
         "sources": "Sources:",
+        "mail-sending": "Sending email...",
+        "mail-fail": "Failed to send",
+        "mail-success": "Mail sent successfully",
         "hotspotmap-first-desc": "HotspotMap is an application that shows Hotspots dedicated to developers. The goal is to find the best place to work when you are far from your workplace or your home.",
         "hotspotmap-second-desc": "IN PROGRESS"
     }

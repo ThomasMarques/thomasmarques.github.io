@@ -1,7 +1,7 @@
 <?php
 
 header("Content-Type: text/plain");
-header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Origin: thomasmarques.github.io");
 
 $mail = 'marquesthom@gmail.com'; // Déclaration de l'adresse de destination.
 

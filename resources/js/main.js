@@ -32,10 +32,13 @@ $(document).ready(function () {
                 return element.find('img');
             }
         }
-    }); // sending mail
+    }); $('.control-group input, .control-group textarea').keypress(function() {
+        $(this).removeClass('novalidate');
+    }); $('.control-group input, .control-group textarea').change(function() {
+        $(this).removeClass('novalidate');
+    });// sending mail
     var form = $('#contact-form'); // contact form
     var submit = $('#contact-button');  // submit button
-    // form submit event
     form.on('submit', function(e) {
         e.preventDefault(); // prevent default form submit
 
@@ -45,16 +48,40 @@ $(document).ready(function () {
             dataType: 'json', // request type html/json/xml
             data: form.serialize(), // serialize form data 
             beforeSend: function() {
-                
+                $('#contact-button').addClass('hidden');
+                $('#contact-button-sending').removeClass('hidden');
             },
             success: function(data) {
-                console.log(data);
+                $('#contact-button-sending').addClass('hidden');   
                 if(data.success) {
+                    $('.control-group #email').val('');
+                    $('.control-group #name').val('');
+                    $('.control-group #subject').val('');
+                    $('.control-group #message').val('');
+                    $('#contact-button-success').removeClass('hidden');
+                    setTimeout(function() {
+                        $('#contact-button-success').addClass('hidden');
+                        $('#contact-button').removeClass('hidden');
+                    }, 5000);
                 } else {
+                    $('#contact-button-fail').removeClass('hidden');
+                    setTimeout(function() {
+                        $('#contact-button-fail').addClass('hidden');
+                        $('#contact-button').removeClass('hidden');
+                    }, 5000);
+                    
+                    if(data.hasOwnProperty('email'))
+                        $('.control-group #email').addClass('novalidate');
+                    if(data.hasOwnProperty('name'))
+                        $('.control-group #name').addClass('novalidate');
+                    if(data.hasOwnProperty('subject'))
+                        $('.control-group #subject').addClass('novalidate');
+                    if(data.hasOwnProperty('message'))
+                        $('.control-group #message').addClass('novalidate');
                 }
             },
             error: function(e) {
-                
+                $('contact-button-fail').removeClass('hidden');
             }
         });
     });
