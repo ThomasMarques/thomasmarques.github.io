@@ -547,6 +547,10 @@ h1,h2,h3,h4,h5,h6 {
     position: relative;
 }
 
+#page-projects .projects.projects-title .cube .link-img img {
+    width: 100%;
+}
+
 #page-projects .projects.projects-title .cube .link-img .search-icon {
     position: absolute;
     top: 0px;
@@ -661,7 +665,7 @@ h1,h2,h3,h4,h5,h6 {
 
 #page-skills .custom-progress .custom-progress-bar.begin {
     background-color: #3498db;
-    padding-left: 5%;
+    padding-left: 3%;
     color: #fff;
     text-align: left;
 }
