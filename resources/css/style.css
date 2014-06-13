@@ -504,6 +504,12 @@ h1,h2,h3,h4,h5,h6 {
     transition: 0.2s all ease;
 }
 
+#page-projects .magnific-popup iframe {
+    margin: 35px 20px 55px 20px;
+    display: block;
+    width: calc(100% - 40px);
+}
+
 #page-projects .magnific-popup hr {
     border-color: white;
 }
