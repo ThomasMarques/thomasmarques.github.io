@@ -580,15 +580,16 @@ h1,h2,h3,h4,h5,h6 {
     filter: alpha(opacity = 100);
 }
 
-#page-projects .projects.projects-title .cube .search-icon span {
+#page-projects .projects.projects-title .cube span.search-icon {
     height: 100%;
-    vertical-align: middle;
-    display: inline-block;
+    padding-top: 25%;
+}
+
+#page-projects .projects.projects-title .cube .link-img:hover span.search-icon {
+    padding-top: 32%;
 }
 
 #page-projects .projects.projects-title .cube .search-icon i {
-    text-align: left;
-    vertical-align: middle;
     display: inline-block;
 }
 
