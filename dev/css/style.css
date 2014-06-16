@@ -3,7 +3,7 @@ body,html {
     height:100%;
     font-family:'Source Sans Pro',Helvetica,Arial,sans-serif;
     color:#757575;
-    background-image: url('../images/background.png');
+    background-image: url('../../images/background.png');
     background-attachment:fixed;
 }
 
@@ -139,22 +139,22 @@ h1,h2,h3,h4,h5,h6 {
     position: fixed;
     right: 20px;
     top: 15px;
-    background: url(../images/langage-flags.png) no-repeat 0px 0px;
+    background: url(../../images/langage-flags.png) no-repeat 0px 0px;
 }
 
 .language-selector li a.english-flag, .language-selector li a.english-flag.off:hover{
     position: fixed;
     right: 56px;
     top: 15px;
-    background: url(../images/langage-flags.png) no-repeat -28px 0px;
+    background: url(../../images/langage-flags.png) no-repeat -28px 0px;
 }
 
 .language-selector li a.french-flag.off {
-    background: url(../images/langage-flags.png) no-repeat 0px -22px;
+    background: url(../../images/langage-flags.png) no-repeat 0px -22px;
 }
 
 .language-selector li a.english-flag.off {
-    background: url(../images/langage-flags.png) no-repeat -28px -22px;
+    background: url(../../images/langage-flags.png) no-repeat -28px -22px;
 }
 
 
@@ -496,7 +496,7 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0 auto;
 }
 
-#page-projects .magnific-popup a img {
+#page-projects .magnific-popup a img, #page-projects .magnific-popup iframe {
     margin: 35px 20px 55px 20px;
     display: block;
     width: calc(100% - 40px);
@@ -504,17 +504,11 @@ h1,h2,h3,h4,h5,h6 {
     transition: 0.2s all ease;
 }
 
-#page-projects .magnific-popup iframe {
-    margin: 35px 20px 55px 20px;
-    display: block;
-    width: calc(100% - 40px);
-}
-
 #page-projects .magnific-popup hr {
     border-color: white;
 }
 
-#page-projects .magnific-popup a img:hover {
+#page-projects .magnific-popup a img:hover{
     margin-top: 28px;
     margin-bottom: 62px;
 }

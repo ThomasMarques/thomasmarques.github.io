@@ -61,7 +61,7 @@ var value;
 var json_data = new Object;
 $(document).ready(function () {
     {
-        $.getJSON("resources-dev/i18n/i18n-data.json", function (e) {
+        $.getJSON("../dev/i18n/i18n-data.json", function (e) {
             e.forEach(function (e) {
                 json_data[e.lang] = e
             });
