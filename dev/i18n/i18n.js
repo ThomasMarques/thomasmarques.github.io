@@ -73,4 +73,4 @@ $(document).ready(function () {
     $(".i18n-language-selector").click(function (e) {
         changeLang(this.getAttribute("value"), true)
     })
-})
+});
