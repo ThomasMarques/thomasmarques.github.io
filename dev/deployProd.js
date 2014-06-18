@@ -1,77 +1,98 @@
-/* Node JS script to deploy the web site ( minify HTML, JS and CSS / crunsh images ) */
+/* Node JS script to deploy the web site ( minify HTML, JS and CSS / replacing libs to cdn / crunsh images ) */
 
 /* configuration */
 
 var jsFilesToMinimized = ["i18n/i18n.js", "js/main.js"];
 var jsOutput = "../min.js";
+var cssFilesToMinimized = ["css/font-face.css", "css/style.css"];
+var cssOutput = "../min.css";
 
 /* ************* */
 
 
 /* Global variable */
-
-var querystring = require('querystring');
-var http = require('http');
 var fs = require('fs');
+var jsp = require("uglify-js").parser;
+var pro = require("uglify-js").uglify;
+var cleanCSS = require('clean-css');
+var htmlMinifier = require('html-minifier')
 
 var jsLoad = 0;
 var jsData = '';
+var cssLoad = 0;
+var cssData = '';
 
 /* *************** */
+
 
 /* Minify JS */
 
 function minifiedJS(dataRead) {
-    
+
     jsData += dataRead;
     ++jsLoad;
 
     if (jsLoad == jsFilesToMinimized.length) {
 
-        var query = querystring.stringify({
-            input: jsData.replace("../dev", "./dev")
-        });
+        var ast = jsp.parse(jsData.replace("../dev", "./dev"));
+        ast = pro.ast_mangle(ast); 
+        ast = pro.ast_squeeze(ast);
 
-        var req = http.request({
-                method: 'POST',
-                hostname: 'javascript-minifier.com',
-                path: '/raw',
-            },
-            function (resp) {
-                // if the statusCode isn't what we expect, get out of here
-                if (resp.statusCode !== 200) {
-                    console.log('StatusCode=' + resp.statusCode);
-                    return;
-                }
-
-                var minifiedJS = fs.createWriteStream(jsOutput);
-                resp.pipe(minifiedJS);
-
-                // This is here incase any errors occur
-                minifiedJS.on('error', function (err) {
-                    console.log(err);
-                });
-
+        fs.writeFile(jsOutput, pro.gen_code(ast), function(err) {
+            if(err) {
+                console.log(err);
+            } else {
+                console.log("JS compressed !");
             }
-        );
-        req.on('error', function (err) {
-            throw err;
-        });
-        req.setHeader('Content-Type', 'application/x-www-form-urlencoded');
-        req.setHeader('Content-Length', query.length);
-        req.end(query, 'utf8');
+        }); 
     }
 };
 
 for	(var i = 0; i < jsFilesToMinimized.length; ++i) {
-    
+
     fs.readFile(jsFilesToMinimized[i], 'utf8', function (err, data) {
         if (err) {
             return console.log(err);
         }
-        
+
         /// If there is no error
         minifiedJS(data);
+    });
+};
+
+/* ********* */
+
+
+/* Minify CSS */
+
+function minifiedCSS(dataRead) {
+
+    cssData += dataRead;
+    ++cssLoad;
+
+    if (cssLoad == cssFilesToMinimized.length) {
+
+        var minifiedCSS = new cleanCSS().minify(cssData.replace("../../", ""));
+
+        fs.writeFile(cssOutput, minifiedCSS, function(err) {
+            if(err) {
+                console.log(err);
+            } else {
+                console.log("CSS compressed !");
+            }
+        }); 
+    }
+};
+
+for	(var i = 0; i < cssFilesToMinimized.length; ++i) {
+
+    fs.readFile(cssFilesToMinimized[i], 'utf8', function (err, data) {
+        if (err) {
+            return console.log(err);
+        }
+
+        /// If there is no error
+        minifiedCSS(data);
     });
 };
 
