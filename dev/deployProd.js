@@ -1,4 +1,4 @@
-/* Node JS script to deploy the web site ( minify HTML, JS and CSS / replacing libs to cdn / crunsh images ) */
+/* Node JS script to deploy the web site ( minify HTML, JS and CSS / replacing libs with CDN / crush PNG ) */
 
 /* configuration */
 
@@ -13,6 +13,8 @@ var cssCDN = ["//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css",
 var htmlToMinimized = "index.html";
 var htmlOutput = "index.html";
 
+var imagesBaseDir = "../images"; 
+
 /* ************* */
 
 
@@ -21,18 +23,58 @@ var fs = require('fs');
 var jsp = require("uglify-js").parser;
 var pro = require("uglify-js").uglify;
 var cleanCSS = require('clean-css');
-var htmlMinifier = require('html-minifier')
+var htmlMinifier = require('html-minifier');
+var superagent = require('superagent');
+var walk = require('walk');
+
 
 var jsLoad = 0;
 var jsData = '';
 var cssLoad = 0;
 var cssData = '';
+var filesAlreadyCrushed = '';
 
 function replaceAll(str, find, replace) {
     return str.replace(new RegExp(find, 'g'), replace);
 }
 
 /* *************** */
+
+
+/* PNG Crushing */
+
+function crush(imagePath, next) {
+
+    var req = superagent
+    .post('http://pngcrush.com/crush')
+    .attach('input', imagePath);
+
+    req.end(function(res) {
+
+        res.pipe(fs.createWriteStream(imagePath));
+        console.log(imagePath + ' writed.');
+        filesAlreadyCrushed += '\n' + imagePath;
+        fs.writeFile(imagesBaseDir + '/.crushed', filesAlreadyCrushed);
+        next();
+    });
+}
+
+fs.readFile(imagesBaseDir + '/.crushed', 'utf8', function(err, data) {
+    if (!err) {
+        filesAlreadyCrushed = data;
+    }
+});
+
+var walker = walk.walk(imagesBaseDir);
+walker.on('file', function(root, stat, next) {
+    var fileName = root + '/' + stat.name;
+    if(stat.name.indexOf('.png') != -1 && filesAlreadyCrushed.indexOf(fileName) == -1)
+        crush(fileName, next);
+    else 
+        next();
+});
+
+/* ********* */
 
 
 /* Minify JS */
@@ -149,7 +191,7 @@ function minifyHTML(htmlData) {
         collapseBooleanAttributes: true, 
         collapseWhitespace: true, 
         removeAttributeQuotes: true, 
-        removeEmptyAttributes: true;
+        removeEmptyAttributes: true
     });
 
     fs.writeFile("../" + htmlOutput, result, function(err) {
@@ -171,6 +213,5 @@ fs.readFile(htmlToMinimized, 'utf8', function (err, data) {
     ///If there is no error
     minifyHTML(data);
 });
-
 
 /* ********* */
