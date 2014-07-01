@@ -57,6 +57,7 @@ function changeLang(e, t) {
         changeForLater()
     }
 }
+
 var value;
 var json_data = new Object;
 $(document).ready(function () {
@@ -66,7 +67,7 @@ $(document).ready(function () {
                 json_data[e.lang] = e
             });
             var t = getCookie("lang");
-            if (t == undefined) t = "en";
+            if (t == undefined) t = "fr";
             changeLang(t, false)
         })
     }

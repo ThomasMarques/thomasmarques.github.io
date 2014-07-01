@@ -638,6 +638,10 @@ h1,h2,h3,h4,h5,h6 {
     display: inline-block;
 }
 
+#page-projects .projects-desc .col-md-8 > p::first-letter {
+    padding-left: 5%;
+}
+
 #page-projects .projects-desc .project-infos {
     margin-top: 25px;
 }

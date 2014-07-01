@@ -1,144 +1,276 @@
 [
     {
         "lang": "fr",
+
         "home-menu": "Accueil",
+
         "profile-menu": "Profil",
+
         "skills-menu": "Compétences",
+
         "education-menu": "Formation",
+
         "experience-menu": "Expérience",
+
         "project-menu": "Projets",
+
         "contact-menu": "Contact",
+
         "profession-analyst": "Analyste",
+
         "profession-programmer": "développeur",
+
         "profession-engineer": "Ingénieur",
+
         "hire-me-header": "Recruter moi",
-        "hire-me-header": "Recruter moi",
+
         "personnal-profile": "Profil personnel",
-        "personnal-description": "Je suis moi !",
+
+        "personnal-description": "In progress...", "// TODO": "",
         "skills-title": "Compétences",
+
         "education-title": "Formation",
+
         "graduated": "diplômé",
+
         "engineering-school": "Ecole d'ingénieur en informatique",
+
         "engineering-school-desc": "L’ISIMA est une grande école d’Ingénieurs en Informatique en Auvergne, axée sur les métiers de l’Informatique et de ses applications. Cette école est située à Clermont-Ferrand et dispose de nombreux partenariats avec des entreprises présentes localement telles que Michelin ou CGI Inc. Elle offre une formation en informatique avec à la fois une formation généraliste et une spécialisation dès la 2e année, combinée avec 2 stages de 5 mois.",
+
         "IT-degree": "Diplôme universitaire en infortique",
+
         "IT-degree-description": "Le département informatique de Clermont-Ferrand a une très longue expérience dans la formation aux métiers de l'informatique. Les enseignements (notamment assurés par des professionnels) portent sur l'informatique d'aujourd'hui qui garantit une bonne insertion professionnelle, mais aussi sur celle de demain qui offre de belles perspectives de poursuites d’études.",
+
         "experience-title": "Expérience",
+
         "april": "avr.",
+
         "january": "jan.",
+
         "september": "sep.",
+
         "sandwich-course": "Alternance",
+
         "internship": "Stage",
+
         "job-designation": "Analyste programmeur",
+
         "job-internship": "Développeur Java",
+
         "sandwich-course-desc": "Alternance obtenu suite à mon stage de deuxième année. J'ai été intégré à l’équipe projet (6 personnes) afin de contribuer aux développements en cours et proposer des nouvelles solutions. Dans un premier temps, ces solutions permettront d'améliorer le processus de développement avec la généralisation de tests. Dans un second temps, le but sera de diminuer les temps de réponse de l’outil chez les utilisateurs présents sur d’autres continents.",
+
         "internship-zz-desc": "Stage de 6 mois au Centre de Technologies Michelin de Ladoux dans le but de travailler sur la refonte d’un framework de visualisation. Cet outil permet de tracer des mesures et des modèles de lois de comportements matériaux. Ce stage comprenait l'etude de l’architecture actuelle du Framework, la proposition de solutions techniques pour répondre aux besoins, leur implémentation et la rédaction d’une documentation.",
+
         "internship-dut-desc": "Stage de 3 mois suivi d'un travail à domicile afin de développer un client Java. L'application permet de récupérer les données d'un capteur cardiaque en utilisant le port infrarouge afin de les traiter et de les afficher. L'application permet également de générer des rapports au format Word de manière automatique grâce à l'API d'OpenOffice.",
+
         "teamwork": "Travail en équipe",
+
         "contact-title": "Contactez moi",
+
         "send": "Envoyer",
+
         "contact-me": "Contactez moi à ",
+
         "add-me": "Ajoutez moi ",
+
         "follow-me": "Suivez moi sur ",
+
         "contact-info": "Autre moyen de me contacter",
+
         "key-words": "Mots clés :",
+
         "go-back": "Retour",
+
         "date": "Date : ",
+
         "place": "Lieu :",
+
         "authors": "Auteurs :",
+
         "and": "et",
+
         "sources": "Sources :",
+
         "mail-sending": "Envoi de l'email...",
+
         "mail-fail": "Echec de l'envoi",
+
         "mail-success": "Mail envoyé avec succès",
-        "hotspotmap-first-desc": "HotspotMap est une application qui permet de référencer des Hotspots pour les développeurs. Le but est de trouver la meilleure place pour travailler quand vous êtes loin de votre lieu de travail ou de chez vous. Ce projet nous a été donné par l'intervenant qui enseigne le PHP à l'<a href='http://isima.fr' target='blank'>ISIMA</a>, <a href='https://github.com/willdurand' target='blank'>William Durand</a>. Comme nous devions réalisé une API REST, nous avons opté pour le micro-framework nommé Silex. L'API développée est de niveau 3 sur le <a href='http://martinfowler.com/articles/richardsonMaturityModel.html#level3' target='blank'>modèle de maturité de Richardson</a> grâce aux bibliothèques <a href='https://github.com/willdurand/Negotiation'target='blank'>Negociation</a> et <a href='https://github.com/willdurand/Hateoas'target='blank'>Hateoas</a>.",
-        "hotspotmap-second-desc": "IN PROGRESS",
-        "easydrive-first-desc": "IN PROGRESS",
-        "easydrive-second-desc": "IN PROGRESS",
-        "badpractice-first-desc": "IN PROGRESS",
-        "badpractice-second-desc": "IN PROGRESS",
-        "ejbcontainer-first-desc": "IN PROGRESS",
-        "ejbcontainer-second-desc": "IN PROGRESS",
-        "isiboule-first-desc": "IN PROGRESS",
-        "isiboule-second-desc": "IN PROGRESS",
-        "raspberry-first-desc": "IN PROGRESS",
-        "raspberry-second-desc": "IN PROGRESS",
-        "lac-first-desc": "IN PROGRESS",
-        "lac-second-desc": "IN PROGRESS",
-        "clerfit-first-desc": "IN PROGRESS",
-        "clerfit-second-desc": "IN PROGRESS"
+
+        "hotspotmap-first-desc": "HotspotMap est une application qui permet de référencer des Hotspots pour les développeurs. Le but est de trouver la meilleure place pour travailler quand vous êtes loin de votre lieu de travail ou de votre domicile. Ce projet nous a été donné par l'intervenant qui enseigne le PHP à l'<a href='http://isima.fr' target='blank'>ISIMA</a>, <a href='https://github.com/willdurand' target='blank'>William Durand</a>. Comme nous devions réalisé une API REST, nous avons opté pour le micro-framework nommé Silex. L'API développée est de niveau 3 sur le <a href='http://martinfowler.com/articles/richardsonMaturityModel.html#level3' target='blank'>modèle de maturité de Richardson</a> grâce aux bibliothèques <a href='https://github.com/willdurand/Negotiation'target='blank'>Negociation</a> et <a href='https://github.com/willdurand/Hateoas' target='blank'>Hateoas</a>.",
+
+        "hotspotmap-second-desc": "Pour exploiter l'API REST nous avons developpé une application front en JavaScript avec <a href='https://angularjs.org' target='blank'>AngularJS</a>. AngularJS est un framework JavaScript open-source qui a pour but de simplifier la syntaxe JavaScript et de combler les faiblesses du langage en lui ajoutant de nouvelles fonctionnalités. Les pages de cette application sont générées par le moteur de template <a href='http://twig.sensiolabs.org' target='blank'>Twig</a>. Afin de montrer le positionnement des Hotspots présentes en base, nous avons utilisé Maps qui met une API JavaScript à disposition des développeurs. Pour le design de l'application nous l'avons voulu ergonoique et épuré pour cela nous nous sommes basé sur le framework <a href='http://getbootstrap.com' target='blank'>Boostrap</a> pour la structure gloable et nous avons redéfinit certaines propriétés afin d'avoir un design unique qui convienne à notre application.",
+
+        "hotspotmap-third-desc": "En plus du travail demandé, nous avons également développé des tests unitaire à l'aide de la library <a href='http://phpunit.de' target='blank'>PHPUnit</a> pour assurer le bon fonctionnement de l'application REST sur le serveur.",
+
+        "easydrive-first-desc": "EasyDrive est un Dropbox-like réalisé en JavaEE qui permet à des utilisateurs de stocker et partager des fichiers en ligne. Ces fichiers sont stockés dans la base de données <a href='http://www.mysql.fr' target='blank'>MySQL</a> présente sur le serveur. Pour la partie serveur nous avons utilisés un serveur <a href='http://tomee.apache.org' target='blank'>Tomee</a>, car ce serveur fusionne Apache Tomcat et JavaEE en embarquant plusieurs bibliothèque dont <a href='http://primefaces.org' target='blank'>Primefaces</a> que nous avons utilisé.",
+
+        "easydrive-second-desc": "L'application serveur est constitué de deux grandes parties, le Data Access Object qui va nous permettre d'enregistrer ou d'accéder aux objets stockés en base de données. Et la seconde parie qui contient l'EJB et les controlleurs qui vont se charger de traiter les requêtes arrivant sur le serveur. La partie front a été faite en JSF avec la library <a href='http://primefaces.org' target='blank'>Primefaces</a>.",
         
+        "easydrive-third-desc": "Afin de faire un projet original et ressemblant à notre vision nous avons simplifier l'interface au minimum et avons choisi d'envoyer les commandes au serveur via le terminal proposé par <a href='http://primefaces.org' target='blank'>Primefaces</a>. Après authentification notre application permet de créer des dossiers, les partager, naviguer dans le sytème de fichiers, uploader des fichiers, les supprimer, les télécharger, faire des recherches et naviguer dans les dossiers partagés avec nous.",
+
+        "badpractice-first-desc": "BadPractice est un StackOverflow-like développé en Grails (Groovy on Rails). C'est donc un site de questions/réponses que nous avons créé avec une application server lié à une base de données et une application GSP / HTML / JavaScript. Les plus de notre application : <ul><li>Possibilité de bannir/débannir un utilisateur</li><li>Page 404 personnalisée</li><li>Authentification par le service Google oauth2</li><li>Construction de l'utilisateur avec ses informations Google Plus</li><li>Rendu personnalisé à l'aide du css et de la bibliothèque frontend <a href='http://getbootstrap.com' target='blank'>Boostrap</a></li><li>Utilisation de Gravatar pour gérer les images de profil des utilisateurs</li></ul>",
+
+        "ejbcontainer-first-desc": "Notre projet consistait à Développer un conteneur d’EJB en JavaEE, la version finale comprend les fonctionnalités suivantes (testées et éprouvées avec JUnit) : <ul><li>Association des classes EJB avec leurs interfaces</li><li>Injection d'EJB et de PersistenceContext (avec PersistenceUnit) dans les classes</li><li>Gestion des trois stratégies possibles d'un EJB : Stateless, Stateful et Singleton</li><li>Implémentation des annotations PostConstruct et PreDestroy</li><li>Gestion des transactions (TransactionAttribute) avec trois stratégies possibles : REQUIRE, REQUIRED_NEW et NEVER</li><li>Création de proxy afin de gérer les stratégies des EJB et les transactions</li><li>Gestion des erreurs et création d'exceptions personnalisées</li>",
+
+        "ejbcontainer-second-desc": "Pour scanner les classes dans la méthode bootstrapInit nous avons utilisé l'<a href='https://code.google.com/p/reflections' target='blank'>API Reflections</a>, cette library est dépendante de deux autres : Guava et Javassist. Les trois bibliothèques utilisées pour le développement sont fournis avec le projet.",
+
+        "isiboule-first-desc": "IN PROGRESS",
+
+        "isiboule-second-desc": "IN PROGRESS",
+
+        "raspberry-first-desc": "IN PROGRESS",
+
+        "raspberry-second-desc": "IN PROGRESS",
+
+        "lac-first-desc": "IN PROGRESS",
+
+        "lac-second-desc": "IN PROGRESS",
+
+        "clerfit-first-desc": "IN PROGRESS",
+
+        "clerfit-second-desc": "IN PROGRESS"
+
     },
+
+
     
     
     
     
+    
+
+
     {
         "lang": "en",
+
         "home-menu": "Home",
+
         "profile-menu": "Profile",
+
         "skills-menu": "Skills",
+
         "education-menu": "Education",
+
         "experience-menu": "Experience",
+
         "project-menu": "Projects",
+
         "contact-menu": "Contact",
+
         "profession-analyst": "Analyst",
+
         "profession-programmer": "developer",
+
         "profession-engineer": "Engineer",
+
         "hire-me-header": "Hire me",
+
         "personnal-profile": "Personnal profile",
-        "personnal-description": "I'm me !",
+
+        "personnal-description": "Translation in progress.", "// TODO": "",
         "skills-title": "What I do best",
+
         "education-title": "Education",
+
         "graduated": "graduated",
+
         "engineering-school": "Engineering school in IT Science",
+
         "engineering-school-desc": "ISIMA is a great school of Engineering in IT Science in Auvergne (France). This school is located in Clermont-Ferrand and has many partnerships with companies such as Michelin locally present or CGI Inc. ISIMA offers a computer training, with both general training and specialization from the 2nd year, combined with two courses of 5 months.",
+
         "IT-degree": "Technical University Degree in IT Science",
+
         "IT-degree-description": "The IT department of Clermont-Ferrand has a very long experience in training for careers in computer science. The teachings (some provided by professionals) focus on computing today which ensures good professional integration but also on the future which offers good prospects for further studies.",
+
         "experience-title": "Experience",
+
         "april": "apr.",
+
         "january": "jan.",
+
         "september": "sep.",
+
         "sandwich-course": "Sandwich course",
+
         "internship": "Internship",
+
         "job-designation": "Analyst programmer",
+
         "job-internship": "Java developer",
+
         "sandwich-course-desc": "Sandwich course got after my second year internship. I was included in the project team (6 people) to contribute to the ongoing development and propose new solutions. At first, these solutions will enhance the development process with the generalization of tests. In a second step, the goal will be to reduce the response time of the tool among users on other continents.",
+
         "internship-zz-desc": "6 month internship at Ladoux Technology Center in order to work on redesigning a visualization framework. This tool allows to draw measures and models of behavior laws of materials. This intership included the study of the current architecture of the Framework, the proposed technical solutions to meet the needs, the implementation of the solutions adopted and writing technical documentation.",
+
         "internship-dut-desc": "3 month internship followed by work at home to develop a Java client. The application can retrieve data from a pulse sensor using the infrared port in order to analyze and display them. The application also allows you to generate reports in Word format automatically through API OpenOffice.",
+
         "teamwork": "Teamwork",
+
         "contact-title": "Keep in touch with me",
+
         "send": "Send",
+
         "contact-me": "Contact me at ",
+
         "add-me": "Add me ",
+
         "follow-me": "Follow me on ",
+
         "contact-info": "Other way to contact me",
+
         "key-words": "Key words",
+
         "go-back": "Go back",
+
         "date": "Date: ",
+
         "place": "Place:",
+
         "authors": "Authors", 
         "and": "and",
+
         "sources": "Sources:",
+
         "mail-sending": "Sending email...",
+
         "mail-fail": "Failed to send",
+
         "mail-success": "Mail sent successfully",
+
         "hotspotmap-first-desc": "HotspotMap is an application that shows Hotspots dedicated to developers. The goal is to find the best place to work when you are far from your workplace or your home.",
-        "hotspotmap-second-desc": "IN PROGRESS",
-        "easydrive-first-desc": "IN PROGRESS",
-        "easydrive-second-desc": "IN PROGRESS",
-        "badpractice-first-desc": "IN PROGRESS",
-        "badpractice-second-desc": "IN PROGRESS",
-        "ejbcontainer-first-desc": "IN PROGRESS",
-        "ejbcontainer-second-desc": "IN PROGRESS",
-        "isiboule-first-desc": "IN PROGRESS",
-        "isiboule-second-desc": "IN PROGRESS",
-        "raspberry-first-desc": "IN PROGRESS",
-        "raspberry-second-desc": "IN PROGRESS",
-        "lac-first-desc": "IN PROGRESS",
-        "lac-second-desc": "IN PROGRESS",
-        "clerfit-first-desc": "IN PROGRESS",
-        "clerfit-second-desc": "IN PROGRESS"
+
+        "hotspotmap-second-desc": "Translation in progress.", "// TODO": "Comments don't exist in JSON.",
+        
+        "hotspotmap-third-desc": "Translation in progress.", "// TODO": "",
+        
+        "easydrive-first-desc": "Translation in progress.", "// TODO": "",
+        
+        "easydrive-second-desc": "Translation in progress.", "// TODO": "",
+        
+        "badpractice-first-desc": "Translation in progress.", "// TODO": "",
+        
+        "badpractice-second-desc": "Translation in progress.", "// TODO": "",
+        
+        "ejbcontainer-first-desc": "Translation in progress.", "// TODO": "",
+        
+        "ejbcontainer-second-desc": "Translation in progress.", "// TODO": "",
+        
+        "isiboule-first-desc": "Translation in progress.", "// TODO": "",
+        
+        "isiboule-second-desc": "Translation in progress.", "// TODO": "",
+        
+        "raspberry-first-desc": "Translation in progress.", "// TODO": "",
+        
+        "raspberry-second-desc": "Translation in progress.", "// TODO": "",
+        
+        "lac-first-desc": "Translation in progress.", "// TODO": "",
+        
+        "lac-second-desc": "Translation in progress.", "// TODO": "",
+        
+        "clerfit-first-desc": "Translation in progress.", "// TODO": "",
+        
+        "clerfit-second-desc": "Translation in progress.", "// TODO": ""
+
     }
 ]
-
-
